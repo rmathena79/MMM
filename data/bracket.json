@@ -1,0 +1,266 @@
+{
+  "East": [
+    {
+      "seed_high": 1,
+      "seed_low": 16,
+      "teams": [
+        "Duke",
+        "Siena"
+      ]
+    },
+    {
+      "seed_high": 8,
+      "seed_low": 9,
+      "teams": [
+        "Ohio State",
+        "TCU"
+      ]
+    },
+    {
+      "seed_high": 5,
+      "seed_low": 12,
+      "teams": [
+        "St. John's",
+        "Northern Iowa"
+      ]
+    },
+    {
+      "seed_high": 4,
+      "seed_low": 13,
+      "teams": [
+        "Kansas",
+        "Cal Baptist"
+      ]
+    },
+    {
+      "seed_high": 6,
+      "seed_low": 11,
+      "teams": [
+        "Louisville",
+        "South Florida"
+      ]
+    },
+    {
+      "seed_high": 3,
+      "seed_low": 14,
+      "teams": [
+        "Michigan State",
+        "North Dakota State"
+      ]
+    },
+    {
+      "seed_high": 7,
+      "seed_low": 10,
+      "teams": [
+        "UCLA",
+        "UCF"
+      ]
+    },
+    {
+      "seed_high": 2,
+      "seed_low": 15,
+      "teams": [
+        "UConn",
+        "Furman"
+      ]
+    }
+  ],
+  "West": [
+    {
+      "seed_high": 1,
+      "seed_low": 16,
+      "teams": [
+        "Arizona",
+        "LIU"
+      ]
+    },
+    {
+      "seed_high": 8,
+      "seed_low": 9,
+      "teams": [
+        "Villanova",
+        "Utah State"
+      ]
+    },
+    {
+      "seed_high": 5,
+      "seed_low": 12,
+      "teams": [
+        "Wisconsin",
+        "High Point"
+      ]
+    },
+    {
+      "seed_high": 4,
+      "seed_low": 13,
+      "teams": [
+        "Arkansas",
+        "Hawaii"
+      ]
+    },
+    {
+      "seed_high": 6,
+      "seed_low": 11,
+      "teams": [
+        "BYU",
+        "NC State"
+      ]
+    },
+    {
+      "seed_high": 3,
+      "seed_low": 14,
+      "teams": [
+        "Gonzaga",
+        "Kennesaw State"
+      ]
+    },
+    {
+      "seed_high": 7,
+      "seed_low": 10,
+      "teams": [
+        "Miami (FL)",
+        "Missouri"
+      ]
+    },
+    {
+      "seed_high": 2,
+      "seed_low": 15,
+      "teams": [
+        "Purdue",
+        "Queens"
+      ]
+    }
+  ],
+  "Midwest": [
+    {
+      "seed_high": 1,
+      "seed_low": 16,
+      "teams": [
+        "Michigan",
+        "UMBC"
+      ]
+    },
+    {
+      "seed_high": 8,
+      "seed_low": 9,
+      "teams": [
+        "Georgia",
+        "Saint Louis"
+      ]
+    },
+    {
+      "seed_high": 5,
+      "seed_low": 12,
+      "teams": [
+        "Texas Tech",
+        "Akron"
+      ]
+    },
+    {
+      "seed_high": 4,
+      "seed_low": 13,
+      "teams": [
+        "Alabama",
+        "Hofstra"
+      ]
+    },
+    {
+      "seed_high": 6,
+      "seed_low": 11,
+      "teams": [
+        "Tennessee",
+        "SMU"
+      ]
+    },
+    {
+      "seed_high": 3,
+      "seed_low": 14,
+      "teams": [
+        "Virginia",
+        "Wright State"
+      ]
+    },
+    {
+      "seed_high": 7,
+      "seed_low": 10,
+      "teams": [
+        "Kentucky",
+        "Santa Clara"
+      ]
+    },
+    {
+      "seed_high": 2,
+      "seed_low": 15,
+      "teams": [
+        "Iowa State",
+        "Tennessee State"
+      ]
+    }
+  ],
+  "South": [
+    {
+      "seed_high": 1,
+      "seed_low": 16,
+      "teams": [
+        "Florida",
+        "Lehigh"
+      ]
+    },
+    {
+      "seed_high": 8,
+      "seed_low": 9,
+      "teams": [
+        "Clemson",
+        "Iowa"
+      ]
+    },
+    {
+      "seed_high": 5,
+      "seed_low": 12,
+      "teams": [
+        "Vanderbilt",
+        "McNeese"
+      ]
+    },
+    {
+      "seed_high": 4,
+      "seed_low": 13,
+      "teams": [
+        "Nebraska",
+        "Troy"
+      ]
+    },
+    {
+      "seed_high": 6,
+      "seed_low": 11,
+      "teams": [
+        "North Carolina",
+        "VCU"
+      ]
+    },
+    {
+      "seed_high": 3,
+      "seed_low": 14,
+      "teams": [
+        "Illinois",
+        "Penn"
+      ]
+    },
+    {
+      "seed_high": 7,
+      "seed_low": 10,
+      "teams": [
+        "Saint Mary's",
+        "Texas A&M"
+      ]
+    },
+    {
+      "seed_high": 2,
+      "seed_low": 15,
+      "teams": [
+        "Houston",
+        "Idaho"
+      ]
+    }
+  ]
+}

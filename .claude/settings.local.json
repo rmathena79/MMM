@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.sports-reference.com)",
+      "WebFetch(domain:www.espn.com)",
+      "WebFetch(domain:www.cbssports.com)",
+      "WebFetch(domain:neilpaine.substack.com)"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+PREDICTION RATIONALE
+==================================================
+
+For each game, shows the composite gap between teams.
+Positive gap = favorite's margin. Upset adjustments noted.
+
+
+EAST REGION
+----------------------------------------
+
+  Round of 64:
+    (1) Duke vs (16) Siena -> Duke  (gap=3.336)
+    (8) Ohio State vs (9) TCU -> Ohio State  (gap=0.481)
+    (5) St. John's vs (12) Northern Iowa -> St. John's  (gap=1.262)
+    (4) Kansas vs (13) Cal Baptist -> Kansas  (gap=1.849)
+    (6) Louisville vs (11) South Florida -> Louisville  (gap=1.076)
+    (3) Michigan State vs (14) North Dakota State -> Michigan State  (gap=1.660)
+    (7) UCLA vs (10) UCF -> UCLA  (gap=0.722)
+    (2) UConn vs (15) Furman -> UConn  (gap=2.017)
+
+  Round of 32:
+    (1) Duke vs (8) Ohio State -> Duke  ()
+    (5) St. John's vs (4) Kansas -> St. John's  ()
+    (6) Louisville vs (3) Michigan State -> Louisville  ()
+    (7) UCLA vs (2) UConn -> UConn  ()
+
+  Sweet 16:
+    (1) Duke vs (5) St. John's -> Duke  ()
+    (6) Louisville vs (2) UConn -> Louisville  ()
+
+  Elite 8:
+    (1) Duke vs (6) Louisville -> Duke  ()
+
+WEST REGION
+----------------------------------------
+
+  Round of 64:
+    (1) Arizona vs (16) LIU -> Arizona  (gap=3.294)
+    (8) Villanova vs (9) Utah State -> Utah State  (gap=0.043)
+    (5) Wisconsin vs (12) High Point -> Wisconsin  (gap=0.808)
+    (4) Arkansas vs (13) Hawaii -> Arkansas  (gap=1.745)
+    (6) BYU vs (11) NC State -> BYU  (gap=0.382)
+    (3) Gonzaga vs (14) Kennesaw State -> Gonzaga  (gap=2.249)
+    (7) Miami (FL) vs (10) Missouri -> Missouri  (gap=0.128)
+    (2) Purdue vs (15) Queens -> Purdue  (gap=2.184)
+
+  Round of 32:
+    (1) Arizona vs (9) Utah State -> Arizona  ()
+    (5) Wisconsin vs (4) Arkansas -> Arkansas  ()
+    (6) BYU vs (3) Gonzaga -> Gonzaga  ()
+    (10) Missouri vs (2) Purdue -> Purdue  ()
+
+  Sweet 16:
+    (1) Arizona vs (4) Arkansas -> Arizona  ()
+    (3) Gonzaga vs (2) Purdue -> Gonzaga  ()
+
+  Elite 8:
+    (1) Arizona vs (3) Gonzaga -> Arizona  ()
+
+MIDWEST REGION
+----------------------------------------
+
+  Round of 64:
+    (1) Michigan vs (16) UMBC -> Michigan  (gap=2.971)
+    (8) Georgia vs (9) Saint Louis -> Georgia  (gap=0.008)
+    (5) Texas Tech vs (12) Akron -> Texas Tech  (gap=1.105)
+    (4) Alabama vs (13) Hofstra -> Alabama  (gap=1.614)
+    (6) Tennessee vs (11) SMU -> Tennessee  (gap=0.597)
+    (3) Virginia vs (14) Wright State -> Virginia  (gap=1.903)
+    (7) Kentucky vs (10) Santa Clara -> Kentucky  (gap=0.730)
+    (2) Iowa State vs (15) Tennessee State -> Iowa State  (gap=2.576)
+
+  Round of 32:
+    (1) Michigan vs (8) Georgia -> Michigan  ()
+    (5) Texas Tech vs (4) Alabama -> Alabama  ()
+    (6) Tennessee vs (3) Virginia -> Tennessee  ()
+    (7) Kentucky vs (2) Iowa State -> Iowa State  ()
+
+  Sweet 16:
+    (1) Michigan vs (4) Alabama -> Michigan  ()
+    (6) Tennessee vs (2) Iowa State -> Tennessee  ()
+
+  Elite 8:
+    (1) Michigan vs (6) Tennessee -> Michigan  ()
+
+SOUTH REGION
+----------------------------------------
+
+  Round of 64:
+    (1) Florida vs (16) Lehigh -> Florida  (gap=2.524)
+    (8) Clemson vs (9) Iowa -> Iowa  (gap=0.028)
+    (5) Vanderbilt vs (12) McNeese -> Vanderbilt  (gap=1.038)
+    (4) Nebraska vs (13) Troy -> Nebraska  (gap=1.880)
+    (6) North Carolina vs (11) VCU -> VCU  (gap=0.267)
+    (3) Illinois vs (14) Penn -> Illinois  (gap=2.141)
+    (7) Saint Mary's vs (10) Texas A&M -> Texas A&M  (gap=0.050)
+    (2) Houston vs (15) Idaho -> Houston  (gap=2.690)
+
+  Round of 32:
+    (1) Florida vs (9) Iowa -> Florida  ()
+    (5) Vanderbilt vs (4) Nebraska -> Nebraska  ()
+    (11) VCU vs (3) Illinois -> Illinois  ()
+    (10) Texas A&M vs (2) Houston -> Houston  ()
+
+  Sweet 16:
+    (1) Florida vs (4) Nebraska -> Florida  ()
+    (3) Illinois vs (2) Houston -> Houston  ()
+
+  Elite 8:
+    (1) Florida vs (2) Houston -> Florida  ()
+
+FINAL FOUR
+  Duke vs Arizona -> Duke
+  Michigan vs Florida -> Michigan
+
+CHAMPIONSHIP: Duke vs Michigan -> Duke

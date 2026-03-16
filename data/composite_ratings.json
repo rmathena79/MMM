@@ -1,0 +1,386 @@
+[
+  {
+    "rank": 1,
+    "team": "Duke",
+    "seed": 1,
+    "composite": 1.6899
+  },
+  {
+    "rank": 2,
+    "team": "Michigan",
+    "seed": 1,
+    "composite": 1.6026
+  },
+  {
+    "rank": 3,
+    "team": "Arizona",
+    "seed": 1,
+    "composite": 1.4031
+  },
+  {
+    "rank": 4,
+    "team": "Florida",
+    "seed": 1,
+    "composite": 1.313
+  },
+  {
+    "rank": 5,
+    "team": "Louisville",
+    "seed": 6,
+    "composite": 0.9086
+  },
+  {
+    "rank": 6,
+    "team": "Gonzaga",
+    "seed": 3,
+    "composite": 0.865
+  },
+  {
+    "rank": 7,
+    "team": "Houston",
+    "seed": 2,
+    "composite": 0.8361
+  },
+  {
+    "rank": 8,
+    "team": "Tennessee",
+    "seed": 6,
+    "composite": 0.8268
+  },
+  {
+    "rank": 9,
+    "team": "Iowa State",
+    "seed": 2,
+    "composite": 0.8046
+  },
+  {
+    "rank": 10,
+    "team": "Illinois",
+    "seed": 3,
+    "composite": 0.7511
+  },
+  {
+    "rank": 11,
+    "team": "BYU",
+    "seed": 6,
+    "composite": 0.6898
+  },
+  {
+    "rank": 12,
+    "team": "Kentucky",
+    "seed": 7,
+    "composite": 0.6749
+  },
+  {
+    "rank": 13,
+    "team": "St. John's",
+    "seed": 5,
+    "composite": 0.6574
+  },
+  {
+    "rank": 14,
+    "team": "Nebraska",
+    "seed": 4,
+    "composite": 0.6468
+  },
+  {
+    "rank": 15,
+    "team": "Alabama",
+    "seed": 4,
+    "composite": 0.642
+  },
+  {
+    "rank": 16,
+    "team": "Texas Tech",
+    "seed": 5,
+    "composite": 0.5837
+  },
+  {
+    "rank": 17,
+    "team": "Virginia",
+    "seed": 3,
+    "composite": 0.5427
+  },
+  {
+    "rank": 18,
+    "team": "UConn",
+    "seed": 2,
+    "composite": 0.518
+  },
+  {
+    "rank": 19,
+    "team": "Arkansas",
+    "seed": 4,
+    "composite": 0.5131
+  },
+  {
+    "rank": 20,
+    "team": "Ohio State",
+    "seed": 8,
+    "composite": 0.499
+  },
+  {
+    "rank": 21,
+    "team": "UCLA",
+    "seed": 7,
+    "composite": 0.427
+  },
+  {
+    "rank": 22,
+    "team": "Kansas",
+    "seed": 4,
+    "composite": 0.4263
+  },
+  {
+    "rank": 23,
+    "team": "Vanderbilt",
+    "seed": 5,
+    "composite": 0.4217
+  },
+  {
+    "rank": 24,
+    "team": "Georgia",
+    "seed": 8,
+    "composite": 0.3833
+  },
+  {
+    "rank": 25,
+    "team": "Purdue",
+    "seed": 2,
+    "composite": 0.3752
+  },
+  {
+    "rank": 26,
+    "team": "Saint Louis",
+    "seed": 9,
+    "composite": 0.3751
+  },
+  {
+    "rank": 27,
+    "team": "Clemson",
+    "seed": 8,
+    "composite": 0.3424
+  },
+  {
+    "rank": 28,
+    "team": "Michigan State",
+    "seed": 3,
+    "composite": 0.3406
+  },
+  {
+    "rank": 29,
+    "team": "Iowa",
+    "seed": 9,
+    "composite": 0.3148
+  },
+  {
+    "rank": 30,
+    "team": "NC State",
+    "seed": 11,
+    "composite": 0.3079
+  },
+  {
+    "rank": 31,
+    "team": "Saint Mary's",
+    "seed": 7,
+    "composite": 0.2941
+  },
+  {
+    "rank": 32,
+    "team": "North Carolina",
+    "seed": 6,
+    "composite": 0.286
+  },
+  {
+    "rank": 33,
+    "team": "Texas A&M",
+    "seed": 10,
+    "composite": 0.2439
+  },
+  {
+    "rank": 34,
+    "team": "SMU",
+    "seed": 11,
+    "composite": 0.2295
+  },
+  {
+    "rank": 35,
+    "team": "Utah State",
+    "seed": 9,
+    "composite": 0.2113
+  },
+  {
+    "rank": 36,
+    "team": "Villanova",
+    "seed": 8,
+    "composite": 0.1686
+  },
+  {
+    "rank": 37,
+    "team": "Miami (FL)",
+    "seed": 7,
+    "composite": 0.1025
+  },
+  {
+    "rank": 38,
+    "team": "VCU",
+    "seed": 11,
+    "composite": 0.0186
+  },
+  {
+    "rank": 39,
+    "team": "TCU",
+    "seed": 9,
+    "composite": 0.0177
+  },
+  {
+    "rank": 40,
+    "team": "Wisconsin",
+    "seed": 5,
+    "composite": -0.0096
+  },
+  {
+    "rank": 41,
+    "team": "Missouri",
+    "seed": 10,
+    "composite": -0.025
+  },
+  {
+    "rank": 42,
+    "team": "Santa Clara",
+    "seed": 10,
+    "composite": -0.0547
+  },
+  {
+    "rank": 43,
+    "team": "South Florida",
+    "seed": 11,
+    "composite": -0.1669
+  },
+  {
+    "rank": 44,
+    "team": "UCF",
+    "seed": 10,
+    "composite": -0.2947
+  },
+  {
+    "rank": 45,
+    "team": "Akron",
+    "seed": 12,
+    "composite": -0.5217
+  },
+  {
+    "rank": 46,
+    "team": "Northern Iowa",
+    "seed": 12,
+    "composite": -0.6049
+  },
+  {
+    "rank": 47,
+    "team": "McNeese",
+    "seed": 12,
+    "composite": -0.6167
+  },
+  {
+    "rank": 48,
+    "team": "High Point",
+    "seed": 12,
+    "composite": -0.8175
+  },
+  {
+    "rank": 49,
+    "team": "Hofstra",
+    "seed": 13,
+    "composite": -0.9716
+  },
+  {
+    "rank": 50,
+    "team": "Lehigh",
+    "seed": 16,
+    "composite": -1.2112
+  },
+  {
+    "rank": 51,
+    "team": "Hawaii",
+    "seed": 13,
+    "composite": -1.2319
+  },
+  {
+    "rank": 52,
+    "team": "Troy",
+    "seed": 13,
+    "composite": -1.2335
+  },
+  {
+    "rank": 53,
+    "team": "North Dakota State",
+    "seed": 14,
+    "composite": -1.3198
+  },
+  {
+    "rank": 54,
+    "team": "Wright State",
+    "seed": 14,
+    "composite": -1.3603
+  },
+  {
+    "rank": 55,
+    "team": "UMBC",
+    "seed": 16,
+    "composite": -1.3681
+  },
+  {
+    "rank": 56,
+    "team": "Kennesaw State",
+    "seed": 14,
+    "composite": -1.3838
+  },
+  {
+    "rank": 57,
+    "team": "Penn",
+    "seed": 14,
+    "composite": -1.3898
+  },
+  {
+    "rank": 58,
+    "team": "Cal Baptist",
+    "seed": 13,
+    "composite": -1.4224
+  },
+  {
+    "rank": 59,
+    "team": "Furman",
+    "seed": 15,
+    "composite": -1.4992
+  },
+  {
+    "rank": 60,
+    "team": "Siena",
+    "seed": 16,
+    "composite": -1.6457
+  },
+  {
+    "rank": 61,
+    "team": "Tennessee State",
+    "seed": 15,
+    "composite": -1.7711
+  },
+  {
+    "rank": 62,
+    "team": "Queens",
+    "seed": 15,
+    "composite": -1.8085
+  },
+  {
+    "rank": 63,
+    "team": "Idaho",
+    "seed": 15,
+    "composite": -1.8534
+  },
+  {
+    "rank": 64,
+    "team": "LIU",
+    "seed": 16,
+    "composite": -1.8909
+  }
+]
