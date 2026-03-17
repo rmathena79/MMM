@@ -1,0 +1,442 @@
+{
+  "year": 2026,
+  "seed": 20260316,
+  "git_commit": "8ebbd2534ebda25bb9a6b44f41c7c99631969830",
+  "fetches": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_NCAA_Division_I_men%27s_basketball_tournament",
+      "cache_group": "bracket_2026",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\bracket_2026\\https-enwikipediaorg-wiki-2026-ncaa-division-i-men-27s-basketball-tournament_20260317T015240Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2026-school-stats.html",
+      "cache_group": "ratings_2026",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2026\\https-wwwsports-referencecom-cbb-seasons-men-2026-school-statshtml_20260317T015241Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2008-ncaa.html",
+      "cache_group": "historical_bracket_2008",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2008\\https-wwwsports-referencecom-cbb-postseason-men-2008-ncaahtml_20260317T015242Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2008-school-stats.html",
+      "cache_group": "ratings_2008",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2008\\https-wwwsports-referencecom-cbb-seasons-men-2008-school-statshtml_20260317T015243Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2009-ncaa.html",
+      "cache_group": "historical_bracket_2009",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2009\\https-wwwsports-referencecom-cbb-postseason-men-2009-ncaahtml_20260317T015244Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2009-school-stats.html",
+      "cache_group": "ratings_2009",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2009\\https-wwwsports-referencecom-cbb-seasons-men-2009-school-statshtml_20260317T015244Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2010-ncaa.html",
+      "cache_group": "historical_bracket_2010",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2010\\https-wwwsports-referencecom-cbb-postseason-men-2010-ncaahtml_20260317T015245Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2010-school-stats.html",
+      "cache_group": "ratings_2010",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2010\\https-wwwsports-referencecom-cbb-seasons-men-2010-school-statshtml_20260317T015246Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2011-ncaa.html",
+      "cache_group": "historical_bracket_2011",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2011\\https-wwwsports-referencecom-cbb-postseason-men-2011-ncaahtml_20260317T015247Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2011-school-stats.html",
+      "cache_group": "ratings_2011",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2011\\https-wwwsports-referencecom-cbb-seasons-men-2011-school-statshtml_20260317T015403Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2012-ncaa.html",
+      "cache_group": "historical_bracket_2012",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2012\\https-wwwsports-referencecom-cbb-postseason-men-2012-ncaahtml_20260317T015404Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2012-school-stats.html",
+      "cache_group": "ratings_2012",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2012\\https-wwwsports-referencecom-cbb-seasons-men-2012-school-statshtml_20260317T015405Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2013-ncaa.html",
+      "cache_group": "historical_bracket_2013",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2013\\https-wwwsports-referencecom-cbb-postseason-men-2013-ncaahtml_20260317T015406Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2013-school-stats.html",
+      "cache_group": "ratings_2013",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2013\\https-wwwsports-referencecom-cbb-seasons-men-2013-school-statshtml_20260317T015406Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2014-ncaa.html",
+      "cache_group": "historical_bracket_2014",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2014\\https-wwwsports-referencecom-cbb-postseason-men-2014-ncaahtml_20260317T015407Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2014-school-stats.html",
+      "cache_group": "ratings_2014",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2014\\https-wwwsports-referencecom-cbb-seasons-men-2014-school-statshtml_20260317T015408Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2015-ncaa.html",
+      "cache_group": "historical_bracket_2015",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2015\\https-wwwsports-referencecom-cbb-postseason-men-2015-ncaahtml_20260317T015409Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2015-school-stats.html",
+      "cache_group": "ratings_2015",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2015\\https-wwwsports-referencecom-cbb-seasons-men-2015-school-statshtml_20260317T015410Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2016-ncaa.html",
+      "cache_group": "historical_bracket_2016",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2016\\https-wwwsports-referencecom-cbb-postseason-men-2016-ncaahtml_20260317T015411Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2016-school-stats.html",
+      "cache_group": "ratings_2016",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2016\\https-wwwsports-referencecom-cbb-seasons-men-2016-school-statshtml_20260317T015411Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2017-ncaa.html",
+      "cache_group": "historical_bracket_2017",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2017\\https-wwwsports-referencecom-cbb-postseason-men-2017-ncaahtml_20260317T015412Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2017-school-stats.html",
+      "cache_group": "ratings_2017",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2017\\https-wwwsports-referencecom-cbb-seasons-men-2017-school-statshtml_20260317T015413Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2018-ncaa.html",
+      "cache_group": "historical_bracket_2018",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2018\\https-wwwsports-referencecom-cbb-postseason-men-2018-ncaahtml_20260317T015414Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2018-school-stats.html",
+      "cache_group": "ratings_2018",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2018\\https-wwwsports-referencecom-cbb-seasons-men-2018-school-statshtml_20260317T015415Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2019-ncaa.html",
+      "cache_group": "historical_bracket_2019",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2019\\https-wwwsports-referencecom-cbb-postseason-men-2019-ncaahtml_20260317T015416Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2019-school-stats.html",
+      "cache_group": "ratings_2019",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2019\\https-wwwsports-referencecom-cbb-seasons-men-2019-school-statshtml_20260317T015417Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2021-ncaa.html",
+      "cache_group": "historical_bracket_2021",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2021\\https-wwwsports-referencecom-cbb-postseason-men-2021-ncaahtml_20260317T015418Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2021-school-stats.html",
+      "cache_group": "ratings_2021",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2021\\https-wwwsports-referencecom-cbb-seasons-men-2021-school-statshtml_20260317T015418Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2022-ncaa.html",
+      "cache_group": "historical_bracket_2022",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2022\\https-wwwsports-referencecom-cbb-postseason-men-2022-ncaahtml_20260317T015419Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2022-school-stats.html",
+      "cache_group": "ratings_2022",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2022\\https-wwwsports-referencecom-cbb-seasons-men-2022-school-statshtml_20260317T015420Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2023-ncaa.html",
+      "cache_group": "historical_bracket_2023",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2023\\https-wwwsports-referencecom-cbb-postseason-men-2023-ncaahtml_20260317T015420Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2023-school-stats.html",
+      "cache_group": "ratings_2023",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2023\\https-wwwsports-referencecom-cbb-seasons-men-2023-school-statshtml_20260317T015421Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2024-ncaa.html",
+      "cache_group": "historical_bracket_2024",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2024\\https-wwwsports-referencecom-cbb-postseason-men-2024-ncaahtml_20260317T015422Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2024-school-stats.html",
+      "cache_group": "ratings_2024",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2024\\https-wwwsports-referencecom-cbb-seasons-men-2024-school-statshtml_20260317T015422Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/postseason/men/2025-ncaa.html",
+      "cache_group": "historical_bracket_2025",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\historical_bracket_2025\\https-wwwsports-referencecom-cbb-postseason-men-2025-ncaahtml_20260317T015423Z.html"
+    },
+    {
+      "url": "https://www.sports-reference.com/cbb/seasons/men/2025-school-stats.html",
+      "cache_group": "ratings_2025",
+      "cache_hit": true,
+      "path": "C:\\source_gh\\MMM\\data\\raw\\ratings_2025\\https-wwwsports-referencecom-cbb-seasons-men-2025-school-statshtml_20260317T015424Z.html"
+    }
+  ],
+  "datasets": [
+    {
+      "name": "play_in_structure_2026",
+      "rows": 4,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\play_in_structure_2026.csv"
+    },
+    {
+      "name": "main_bracket_structure_2026",
+      "rows": 32,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\main_bracket_structure_2026.csv"
+    },
+    {
+      "name": "team_ratings_2026",
+      "rows": 401,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2026.csv"
+    },
+    {
+      "name": "team_ratings_2008",
+      "rows": 375,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2008.csv"
+    },
+    {
+      "name": "team_ratings_2009",
+      "rows": 378,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2009.csv"
+    },
+    {
+      "name": "team_ratings_2010",
+      "rows": 381,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2010.csv"
+    },
+    {
+      "name": "team_ratings_2011",
+      "rows": 379,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2011.csv"
+    },
+    {
+      "name": "team_ratings_2012",
+      "rows": 378,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2012.csv"
+    },
+    {
+      "name": "team_ratings_2013",
+      "rows": 381,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2013.csv"
+    },
+    {
+      "name": "team_ratings_2014",
+      "rows": 385,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2014.csv"
+    },
+    {
+      "name": "team_ratings_2015",
+      "rows": 385,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2015.csv"
+    },
+    {
+      "name": "team_ratings_2016",
+      "rows": 385,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2016.csv"
+    },
+    {
+      "name": "team_ratings_2017",
+      "rows": 385,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2017.csv"
+    },
+    {
+      "name": "team_ratings_2018",
+      "rows": 385,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2018.csv"
+    },
+    {
+      "name": "team_ratings_2019",
+      "rows": 387,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2019.csv"
+    },
+    {
+      "name": "team_ratings_2021",
+      "rows": 381,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2021.csv"
+    },
+    {
+      "name": "team_ratings_2022",
+      "rows": 392,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2022.csv"
+    },
+    {
+      "name": "team_ratings_2023",
+      "rows": 399,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2023.csv"
+    },
+    {
+      "name": "team_ratings_2024",
+      "rows": 398,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2024.csv"
+    },
+    {
+      "name": "team_ratings_2025",
+      "rows": 400,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\team_ratings_2025.csv"
+    },
+    {
+      "name": "historical_tournament_games",
+      "rows": 1071,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\historical_tournament_games_2008_2025.csv"
+    },
+    {
+      "name": "historical_team_ratings",
+      "rows": 6554,
+      "path": "C:\\source_gh\\MMM\\data\\interim\\historical_team_ratings_2008_2025.csv"
+    },
+    {
+      "name": "training_matrix",
+      "rows": 2142,
+      "path": "C:\\source_gh\\MMM\\data\\processed\\training_matrix.csv"
+    }
+  ],
+  "model": {
+    "path": "C:\\source_gh\\MMM\\models\\logistic_model.pkl",
+    "features": [
+      "seed_diff",
+      "srs_diff",
+      "sos_diff",
+      "win_pct_diff",
+      "points_margin_diff"
+    ],
+    "cv_metrics": [
+      {
+        "year": 2008,
+        "log_loss": 0.39083852903999566,
+        "brier_score": 0.12597327419491164
+      },
+      {
+        "year": 2009,
+        "log_loss": 0.5833152837666826,
+        "brier_score": 0.20279558498301123
+      },
+      {
+        "year": 2010,
+        "log_loss": 0.46392427778402884,
+        "brier_score": 0.1552085642461649
+      },
+      {
+        "year": 2011,
+        "log_loss": 0.5074939019999419,
+        "brier_score": 0.1726431177192469
+      },
+      {
+        "year": 2012,
+        "log_loss": 0.46906643810166543,
+        "brier_score": 0.15205139459736652
+      },
+      {
+        "year": 2013,
+        "log_loss": 0.48526412865538193,
+        "brier_score": 0.16186221678515725
+      },
+      {
+        "year": 2014,
+        "log_loss": 0.4422078964239909,
+        "brier_score": 0.14715088675605845
+      },
+      {
+        "year": 2015,
+        "log_loss": 0.3981516745305029,
+        "brier_score": 0.12743625247243742
+      },
+      {
+        "year": 2016,
+        "log_loss": 0.5686199655098284,
+        "brier_score": 0.1919685565114937
+      },
+      {
+        "year": 2017,
+        "log_loss": 0.5687721492300439,
+        "brier_score": 0.18085460803500722
+      },
+      {
+        "year": 2018,
+        "log_loss": 0.45230716419744477,
+        "brier_score": 0.15335463474158656
+      },
+      {
+        "year": 2019,
+        "log_loss": 0.377478454822507,
+        "brier_score": 0.12137109553845021
+      },
+      {
+        "year": 2021,
+        "log_loss": 0.6122835921556561,
+        "brier_score": 0.21986740859273898
+      },
+      {
+        "year": 2022,
+        "log_loss": 0.5568730674495015,
+        "brier_score": 0.18752658215663767
+      },
+      {
+        "year": 2023,
+        "log_loss": 0.5191503488727927,
+        "brier_score": 0.171967908442307
+      },
+      {
+        "year": 2024,
+        "log_loss": 0.49489887885902994,
+        "brier_score": 0.16789317396389078
+      },
+      {
+        "year": 2025,
+        "log_loss": 0.3674405689875122,
+        "brier_score": 0.11336563766957133
+      }
+    ],
+    "model_version": "97e41be5e64e91eb"
+  },
+  "monte_carlo": {
+    "most_common_champion": "Michigan",
+    "frequency": 0.2326
+  }
+}

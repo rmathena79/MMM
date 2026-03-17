@@ -1,0 +1,5 @@
+game_id,round,region,slot,team1,seed1,team2,seed2,predicted_winner,predicted_winner_seed,win_prob
+PI_West_11,PI,West,11,NC State,11,Texas,11,Texas,11,0.6334786280053232
+PI_South_16,PI,South,16,Lehigh,16,Prairie View A&M,16,Prairie View A&M,16,0.9464108829529627
+PI_Midwest_11,PI,Midwest,11,Miami (OH),11,SMU,11,Miami (OH),11,0.7760650444105137
+PI_Midwest_16,PI,Midwest,16,Howard,16,UMBC,16,Howard,16,0.6670972890875752

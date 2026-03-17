@@ -1,0 +1,33 @@
+game_id,round,region,slot,seed1,team1,seed2,team2
+R64_East_1,R64,East,1,1,Duke,16,Siena
+R64_East_2,R64,East,2,8,Ohio State,9,TCU
+R64_East_3,R64,East,3,5,St. John's,12,Northern Iowa
+R64_East_4,R64,East,4,4,Kansas,13,California Baptist
+R64_East_5,R64,East,5,6,Louisville,11,South Florida
+R64_East_6,R64,East,6,3,Michigan State,14,North Dakota State
+R64_East_7,R64,East,7,7,UCLA,10,UCF
+R64_East_8,R64,East,8,2,UConn,15,Furman
+R64_West_1,R64,West,1,1,Arizona,16,LIU
+R64_West_2,R64,West,2,8,Villanova,9,Utah State
+R64_West_3,R64,West,3,5,Wisconsin,12,High Point
+R64_West_4,R64,West,4,4,Arkansas,13,Hawaii
+R64_West_5,R64,West,5,6,BYU,11,WINNER::West::11
+R64_West_6,R64,West,6,3,Gonzaga,14,Kennesaw State
+R64_West_7,R64,West,7,7,Miami (FL),10,Missouri
+R64_West_8,R64,West,8,2,Purdue,15,Queens
+R64_South_1,R64,South,1,1,Florida,16,WINNER::South::16
+R64_South_2,R64,South,2,8,Clemson,9,Iowa
+R64_South_3,R64,South,3,5,Vanderbilt,12,McNeese
+R64_South_4,R64,South,4,4,Nebraska,13,Troy
+R64_South_5,R64,South,5,6,North Carolina,11,VCU
+R64_South_6,R64,South,6,3,Illinois,14,Penn
+R64_South_7,R64,South,7,7,Saint Mary's,10,Texas A&M
+R64_South_8,R64,South,8,2,Houston,15,Idaho
+R64_Midwest_1,R64,Midwest,1,1,Michigan,16,WINNER::Midwest::16
+R64_Midwest_2,R64,Midwest,2,8,Georgia,9,Saint Louis
+R64_Midwest_3,R64,Midwest,3,5,Texas Tech,12,Akron
+R64_Midwest_4,R64,Midwest,4,4,Alabama,13,Hofstra
+R64_Midwest_5,R64,Midwest,5,6,Tennessee,11,WINNER::Midwest::11
+R64_Midwest_6,R64,Midwest,6,3,Virginia,14,Wright State
+R64_Midwest_7,R64,Midwest,7,7,Kentucky,10,Santa Clara
+R64_Midwest_8,R64,Midwest,8,2,Iowa State,15,Tennessee State

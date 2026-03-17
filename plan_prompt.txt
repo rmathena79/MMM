@@ -1,0 +1,51 @@
+This is part of a test of your research and analysis abilities. We are going to predict the outcome of the full 2026 Men's NCAA Division I March Madness main bracket. The teams have just been announced; we must predict the winners.
+
+Your immediate task is to compose a project plan. The actual project will be executed later by Codex.
+
+Key steps:
+1. Create a project plan <-- THIS IS WHAT WE ARE DOING NOW
+2. Codex executes the plan
+3. Human assesses results
+
+Description of project:
+```
+- Human user will launch Codex locally on a Windows system
+- The project plan will be presented in a text file
+- Web access is available
+- Python is available for scripting
+- Other typical tools are also available; usage will be reviewed for safety
+
+Human involvement:
+- Human absolutely will not help research; kind of thought March Madness was football
+  - Exception: Human suggests you make sure you know who's playing
+- Human will review CLI commands and any source code before approving execution
+- Human will parse final output
+- Human will provide a local directory to use as a workspace, corresponding to a Git repo, populated only with the project plan
+
+Technical guidance:
+- Inputs: only the project plan
+- Output:
+  - The full set of 63 predicted game outcomes in some unambiguous form
+- Execution:
+  - The initiating command will simply be "execute the plan" with a reference to the plan file
+  - The project should execute start to finish without asking for human input, though human will be prompted to approve tool usage
+- Preserve all work products
+
+FAQ:
+- Prediction accuracy is the objective
+- Granularity of planning is for you to decide
+  - You may specify solutions in the project plan
+  - You may direct the project execution system to pick solutions later
+  - Or a mix of both
+- Methodology is for you to decide
+- Data sources are for you to decide
+  - You may identify resources while composing the plan
+  - You may direct the project execution system to identify resources later
+  - Or a mix of both
+- Intermediate and output formats are for you to decide, so long as the final prediction outputs are human-readable
+- Reasoning is not required to be described or preserved, but can be if it doing so will enhance accuracy
+```
+  
+CRITICAL: Your current task is to write a plan which will be executed later by Codex; do not make your predictions or prepare a final report yet.
+
+Now compose that project plan.
