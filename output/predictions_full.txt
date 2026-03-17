@@ -1,0 +1,107 @@
+
+=== FIRST FOUR ===
+(16) UMBC vs. (16) Howard  →  WINNER: UMBC  (Δ score: 3.6)
+(11) Texas vs. (11) NC State  →  WINNER: Texas  (Δ score: 0.1)
+(16) Prairie View A&M vs. (16) Lehigh  →  WINNER: Prairie View A&M  (Δ score: 1.7)
+(11) SMU vs. (11) Miami (OH)  →  WINNER: SMU  (Δ score: 4.7)
+
+=== ROUND OF 64 — EAST ===
+(1) Duke vs. (16) Siena  →  WINNER: Duke  (Δ score: 26.6)
+(8) Ohio State vs. (9) TCU  →  WINNER: Ohio State  (Δ score: 2.2)
+(5) St. John's vs. (12) Northern Iowa  →  WINNER: St. John's  (Δ score: 10.9)
+(4) Kansas vs. (13) Cal Baptist  →  WINNER: Kansas  (Δ score: 9.0)
+(6) Louisville vs. (11) South Florida  →  WINNER: Louisville  (Δ score: 2.6)
+(3) Michigan State vs. (14) North Dakota State  →  WINNER: Michigan State  (Δ score: 13.3)
+(7) UCLA vs. (10) UCF  →  WINNER: UCLA  (Δ score: 2.3)
+(2) UConn vs. (15) Furman  →  WINNER: UConn  (Δ score: 21.0)
+
+=== ROUND OF 64 — WEST ===
+(1) Arizona vs. (16) LIU  →  WINNER: Arizona  (Δ score: 28.1)
+(8) Villanova vs. (9) Utah State  →  WINNER: Villanova  (Δ score: 0.3)
+(5) Wisconsin vs. (12) High Point  →  WINNER: Wisconsin  (Δ score: 3.5)
+(4) Arkansas vs. (13) Hawaii  →  WINNER: Arkansas  (Δ score: 11.7)
+(6) BYU vs. (11) Texas  →  WINNER: BYU  (Δ score: 9.4)
+(3) Gonzaga vs. (14) Kennesaw State  →  WINNER: Gonzaga  (Δ score: 23.5)
+(7) Miami (FL) vs. (10) Missouri  →  WINNER: Miami (FL)  (Δ score: 5.7)
+(2) Purdue vs. (15) Queens (NC)  →  WINNER: Purdue  (Δ score: 20.5)
+
+=== ROUND OF 64 — MIDWEST ===
+(1) Michigan vs. (16) UMBC  →  WINNER: Michigan  (Δ score: 39.6)
+(8) Georgia vs. (9) Saint Louis  →  WINNER: Georgia  (Δ score: 1.7)
+(5) Texas Tech vs. (12) Akron  →  WINNER: Texas Tech  (Δ score: 5.0)
+(4) Alabama vs. (13) Hofstra  →  WINNER: Alabama  (Δ score: 10.6)
+(6) Tennessee vs. (11) SMU  →  WINNER: Tennessee  (Δ score: 9.5)
+(3) Virginia vs. (14) Wright State  →  WINNER: Virginia  (Δ score: 15.6)
+(7) Kentucky vs. (10) Santa Clara  →  WINNER: Kentucky  (Δ score: 3.5)
+(2) Iowa State vs. (15) Tennessee State  →  WINNER: Iowa State  (Δ score: 22.1)
+
+=== ROUND OF 64 — SOUTH ===
+(1) Florida vs. (16) Prairie View A&M  →  WINNER: Florida  (Δ score: 49.5)
+(8) Clemson vs. (9) Iowa  →  WINNER: Clemson  (Δ score: 3.2)
+(5) Vanderbilt vs. (12) McNeese  →  WINNER: Vanderbilt  (Δ score: 7.2)
+(4) Nebraska vs. (13) Troy  →  WINNER: Nebraska  (Δ score: 15.5)
+(6) North Carolina vs. (11) VCU  →  WINNER: North Carolina  (Δ score: 0.1)
+(3) Illinois vs. (14) Penn  →  WINNER: Illinois  (Δ score: 15.6)
+(7) Saint Mary's vs. (10) Texas A&M  →  WINNER: Saint Mary's  (Δ score: 7.3)
+(2) Houston vs. (15) Idaho  →  WINNER: Houston  (Δ score: 23.2)
+
+=== ROUND OF 32 — EAST ===
+(1) Duke vs. (8) Ohio State  →  WINNER: Duke  (Δ score: 16.9)
+(5) St. John's vs. (4) Kansas  →  WINNER: Kansas  (Δ score: 1.4)
+(6) Louisville vs. (3) Michigan State  →  WINNER: Michigan State  (Δ score: 7.5)
+(7) UCLA vs. (2) UConn  →  WINNER: UConn  (Δ score: 11.7)
+
+=== ROUND OF 32 — WEST ===
+(1) Arizona vs. (8) Villanova  →  WINNER: Arizona  (Δ score: 16.7)
+(5) Wisconsin vs. (4) Arkansas  →  WINNER: Arkansas  (Δ score: 3.8)
+(6) BYU vs. (3) Gonzaga  →  WINNER: Gonzaga  (Δ score: 9.1)
+(7) Miami (FL) vs. (2) Purdue  →  WINNER: Purdue  (Δ score: 8.2)
+
+=== ROUND OF 32 — MIDWEST ===
+(1) Michigan vs. (8) Georgia  →  WINNER: Michigan  (Δ score: 16.3)
+(5) Texas Tech vs. (4) Alabama  →  WINNER: Alabama  (Δ score: 2.2)
+(6) Tennessee vs. (3) Virginia  →  WINNER: Virginia  (Δ score: 3.1)
+(7) Kentucky vs. (2) Iowa State  →  WINNER: Iowa State  (Δ score: 10.2)
+
+=== ROUND OF 32 — SOUTH ===
+(1) Florida vs. (8) Clemson  →  WINNER: Florida  (Δ score: 14.5)
+(5) Vanderbilt vs. (4) Nebraska  →  WINNER: Nebraska  (Δ score: 1.7)
+(6) North Carolina vs. (3) Illinois  →  WINNER: Illinois  (Δ score: 9.5)
+(7) Saint Mary's vs. (2) Houston  →  WINNER: Houston  (Δ score: 9.7)
+
+=== SWEET 16 — EAST ===
+(1) Duke vs. (4) Kansas  →  WINNER: Duke  (Δ score: 13.4)
+(3) Michigan State vs. (2) UConn  →  WINNER: UConn  (Δ score: 3.0)
+
+=== SWEET 16 — WEST ===
+(1) Arizona vs. (4) Arkansas  →  WINNER: Arizona  (Δ score: 12.2)
+(3) Gonzaga vs. (2) Purdue  →  WINNER: Purdue  (Δ score: 4.3)
+
+=== SWEET 16 — MIDWEST ===
+(1) Michigan vs. (4) Alabama  →  WINNER: Michigan  (Δ score: 12.1)
+(3) Virginia vs. (2) Iowa State  →  WINNER: Iowa State  (Δ score: 5.6)
+
+=== SWEET 16 — SOUTH ===
+(1) Florida vs. (4) Nebraska  →  WINNER: Florida  (Δ score: 8.1)
+(3) Illinois vs. (2) Houston  →  WINNER: Houston  (Δ score: 4.5)
+
+=== ELITE EIGHT — EAST ===
+(1) Duke vs. (2) UConn  →  WINNER: Duke  (Δ score: 6.0)
+
+=== ELITE EIGHT — WEST ===
+(1) Arizona vs. (2) Purdue  →  WINNER: Arizona  (Δ score: 7.8)
+
+=== ELITE EIGHT — MIDWEST ===
+(1) Michigan vs. (2) Iowa State  →  WINNER: Michigan  (Δ score: 3.0)
+
+=== ELITE EIGHT — SOUTH ===
+(1) Florida vs. (2) Houston  →  WINNER: Florida  (Δ score: 3.0)
+
+=== FINAL FOUR ===
+(1) Duke vs. (1) Arizona  →  WINNER: Duke  (Δ score: 0.2)
+(1) Michigan vs. (1) Florida  →  WINNER: Michigan  (Δ score: 0.9)
+
+=== CHAMPIONSHIP ===
+(1) Duke vs. (1) Michigan  →  WINNER: Duke  (Δ score: 1.1)
+
+=== CHAMPION: Duke ===

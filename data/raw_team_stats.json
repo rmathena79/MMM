@@ -1,0 +1,697 @@
+{
+  "_metadata": {
+    "collected": "2026-03-16",
+    "sources": ["KenPom", "NET rankings", "CBS Sports", "ESPN", "BetMGM", "WebSearch"],
+    "notes": "AdjEM/AdjOE/AdjDE approximated from published rankings and efficiency reports. NET rankings from bballnet/ncaa.com. Recent form from season records and reports."
+  },
+  "teams": {
+    "Duke": {
+      "seed": 1, "region": "East",
+      "record": "32-2", "wins": 32, "losses": 2,
+      "kenpom_rank": 1, "kenpom_adjEM": 34.2, "kenpom_adjOE": 122.1, "kenpom_adjDE": 87.9, "kenpom_tempo": 71.2,
+      "net_rank": 1,
+      "recent_form_w10": 9,
+      "sos_rank": 4,
+      "injury_note": "Caleb Foster out (foot fracture), Patrick Ngongba questionable (foot)",
+      "injury_penalty": -3
+    },
+    "UConn": {
+      "seed": 2, "region": "East",
+      "record": "29-5", "wins": 29, "losses": 5,
+      "kenpom_rank": 7, "kenpom_adjEM": 27.8, "kenpom_adjOE": 118.4, "kenpom_adjDE": 90.6, "kenpom_tempo": 68.9,
+      "net_rank": 7,
+      "recent_form_w10": 8,
+      "sos_rank": 9,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Michigan State": {
+      "seed": 3, "region": "East",
+      "record": "25-7", "wins": 25, "losses": 7,
+      "kenpom_rank": 9, "kenpom_adjEM": 26.1, "kenpom_adjOE": 117.2, "kenpom_adjDE": 91.1, "kenpom_tempo": 69.4,
+      "net_rank": 9,
+      "recent_form_w10": 7,
+      "sos_rank": 12,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Kansas": {
+      "seed": 4, "region": "East",
+      "record": "23-10", "wins": 23, "losses": 10,
+      "kenpom_rank": 15, "kenpom_adjEM": 22.5, "kenpom_adjOE": 114.8, "kenpom_adjDE": 92.3, "kenpom_tempo": 70.1,
+      "net_rank": 15,
+      "recent_form_w10": 6,
+      "sos_rank": 7,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "St. John's": {
+      "seed": 5, "region": "East",
+      "record": "28-6", "wins": 28, "losses": 6,
+      "kenpom_rank": 18, "kenpom_adjEM": 20.8, "kenpom_adjOE": 113.5, "kenpom_adjDE": 92.7, "kenpom_tempo": 73.5,
+      "net_rank": 18,
+      "recent_form_w10": 8,
+      "sos_rank": 14,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Louisville": {
+      "seed": 6, "region": "East",
+      "record": "22-11", "wins": 22, "losses": 11,
+      "kenpom_rank": 22, "kenpom_adjEM": 19.1, "kenpom_adjOE": 112.4, "kenpom_adjDE": 93.3, "kenpom_tempo": 69.8,
+      "net_rank": 23,
+      "recent_form_w10": 6,
+      "sos_rank": 11,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "UCLA": {
+      "seed": 7, "region": "East",
+      "record": "23-11", "wins": 23, "losses": 11,
+      "kenpom_rank": 28, "kenpom_adjEM": 18.0, "kenpom_adjOE": 111.8, "kenpom_adjDE": 93.8, "kenpom_tempo": 68.2,
+      "net_rank": 28,
+      "recent_form_w10": 6,
+      "sos_rank": 8,
+      "injury_note": "Dent (calf, probable), Bilodeau (knee, probable)",
+      "injury_penalty": -1
+    },
+    "Ohio State": {
+      "seed": 8, "region": "East",
+      "record": "21-12", "wins": 21, "losses": 12,
+      "kenpom_rank": 31, "kenpom_adjEM": 17.2, "kenpom_adjOE": 113.5, "kenpom_adjDE": 96.3, "kenpom_tempo": 72.4,
+      "net_rank": 31,
+      "recent_form_w10": 7,
+      "sos_rank": 16,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "TCU": {
+      "seed": 9, "region": "East",
+      "record": "22-11", "wins": 22, "losses": 11,
+      "kenpom_rank": 34, "kenpom_adjEM": 16.5, "kenpom_adjOE": 111.2, "kenpom_adjDE": 94.7, "kenpom_tempo": 70.5,
+      "net_rank": 34,
+      "recent_form_w10": 6,
+      "sos_rank": 18,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "UCF": {
+      "seed": 10, "region": "East",
+      "record": "21-11", "wins": 21, "losses": 11,
+      "kenpom_rank": 38, "kenpom_adjEM": 15.8, "kenpom_adjOE": 110.5, "kenpom_adjDE": 94.7, "kenpom_tempo": 71.8,
+      "net_rank": 38,
+      "recent_form_w10": 6,
+      "sos_rank": 22,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "South Florida": {
+      "seed": 11, "region": "East",
+      "record": "25-8", "wins": 25, "losses": 8,
+      "kenpom_rank": 46, "kenpom_adjEM": 14.2, "kenpom_adjOE": 108.8, "kenpom_adjDE": 94.6, "kenpom_tempo": 72.1,
+      "net_rank": 46,
+      "recent_form_w10": 8,
+      "sos_rank": 35,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Northern Iowa": {
+      "seed": 12, "region": "East",
+      "record": "23-12", "wins": 23, "losses": 12,
+      "kenpom_rank": 49, "kenpom_adjEM": 13.5, "kenpom_adjOE": 107.2, "kenpom_adjDE": 93.7, "kenpom_tempo": 67.3,
+      "net_rank": 49,
+      "recent_form_w10": 6,
+      "sos_rank": 42,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Cal Baptist": {
+      "seed": 13, "region": "East",
+      "record": "25-8", "wins": 25, "losses": 8,
+      "kenpom_rank": 51, "kenpom_adjEM": 12.8, "kenpom_adjOE": 106.5, "kenpom_adjDE": 93.7, "kenpom_tempo": 70.8,
+      "net_rank": 51,
+      "recent_form_w10": 7,
+      "sos_rank": 55,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "North Dakota State": {
+      "seed": 14, "region": "East",
+      "record": "27-7", "wins": 27, "losses": 7,
+      "kenpom_rank": 55, "kenpom_adjEM": 11.9, "kenpom_adjOE": 105.8, "kenpom_adjDE": 93.9, "kenpom_tempo": 68.6,
+      "net_rank": 55,
+      "recent_form_w10": 8,
+      "sos_rank": 72,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Furman": {
+      "seed": 15, "region": "East",
+      "record": "22-12", "wins": 22, "losses": 12,
+      "kenpom_rank": 61, "kenpom_adjEM": 10.5, "kenpom_adjOE": 104.2, "kenpom_adjDE": 93.7, "kenpom_tempo": 69.2,
+      "net_rank": 61,
+      "recent_form_w10": 6,
+      "sos_rank": 88,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Siena": {
+      "seed": 16, "region": "East",
+      "record": "23-11", "wins": 23, "losses": 11,
+      "kenpom_rank": 63, "kenpom_adjEM": 9.8, "kenpom_adjOE": 103.5, "kenpom_adjDE": 93.7, "kenpom_tempo": 71.4,
+      "net_rank": 63,
+      "recent_form_w10": 7,
+      "sos_rank": 102,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Arizona": {
+      "seed": 1, "region": "West",
+      "record": "32-2", "wins": 32, "losses": 2,
+      "kenpom_rank": 3, "kenpom_adjEM": 33.1, "kenpom_adjOE": 122.8, "kenpom_adjDE": 89.7, "kenpom_tempo": 72.5,
+      "net_rank": 3,
+      "recent_form_w10": 9,
+      "sos_rank": 5,
+      "injury_note": "No significant injuries reported",
+      "injury_penalty": 0
+    },
+    "Purdue": {
+      "seed": 2, "region": "West",
+      "record": "27-8", "wins": 27, "losses": 8,
+      "kenpom_rank": 8, "kenpom_adjEM": 27.1, "kenpom_adjOE": 119.2, "kenpom_adjDE": 92.1, "kenpom_tempo": 67.5,
+      "net_rank": 8,
+      "recent_form_w10": 7,
+      "sos_rank": 6,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Gonzaga": {
+      "seed": 3, "region": "West",
+      "record": "30-3", "wins": 30, "losses": 3,
+      "kenpom_rank": 5, "kenpom_adjEM": 29.5, "kenpom_adjOE": 120.8, "kenpom_adjDE": 91.3, "kenpom_tempo": 74.2,
+      "net_rank": 11,
+      "recent_form_w10": 9,
+      "sos_rank": 20,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Arkansas": {
+      "seed": 4, "region": "West",
+      "record": "26-8", "wins": 26, "losses": 8,
+      "kenpom_rank": 16, "kenpom_adjEM": 22.0, "kenpom_adjOE": 114.2, "kenpom_adjDE": 92.2, "kenpom_tempo": 73.8,
+      "net_rank": 16,
+      "recent_form_w10": 7,
+      "sos_rank": 10,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Wisconsin": {
+      "seed": 5, "region": "West",
+      "record": "24-9", "wins": 24, "losses": 9,
+      "kenpom_rank": 21, "kenpom_adjEM": 19.5, "kenpom_adjOE": 112.1, "kenpom_adjDE": 92.6, "kenpom_tempo": 64.2,
+      "net_rank": 21,
+      "recent_form_w10": 6,
+      "sos_rank": 15,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "BYU": {
+      "seed": 6, "region": "West",
+      "record": "23-11", "wins": 23, "losses": 11,
+      "kenpom_rank": 12, "kenpom_adjEM": 23.8, "kenpom_adjOE": 116.5, "kenpom_adjDE": 92.7, "kenpom_tempo": 71.6,
+      "net_rank": 20,
+      "recent_form_w10": 6,
+      "sos_rank": 13,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Miami (FL)": {
+      "seed": 7, "region": "West",
+      "record": "25-8", "wins": 25, "losses": 8,
+      "kenpom_rank": 27, "kenpom_adjEM": 18.2, "kenpom_adjOE": 112.0, "kenpom_adjDE": 93.8, "kenpom_tempo": 70.3,
+      "net_rank": 27,
+      "recent_form_w10": 7,
+      "sos_rank": 24,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Villanova": {
+      "seed": 8, "region": "West",
+      "record": "24-8", "wins": 24, "losses": 8,
+      "kenpom_rank": 30, "kenpom_adjEM": 17.5, "kenpom_adjOE": 111.5, "kenpom_adjDE": 94.0, "kenpom_tempo": 68.0,
+      "net_rank": 30,
+      "recent_form_w10": 7,
+      "sos_rank": 26,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Utah State": {
+      "seed": 9, "region": "West",
+      "record": "28-6", "wins": 28, "losses": 6,
+      "kenpom_rank": 33, "kenpom_adjEM": 16.8, "kenpom_adjOE": 110.9, "kenpom_adjDE": 94.1, "kenpom_tempo": 69.7,
+      "net_rank": 33,
+      "recent_form_w10": 8,
+      "sos_rank": 45,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Missouri": {
+      "seed": 10, "region": "West",
+      "record": "20-12", "wins": 20, "losses": 12,
+      "kenpom_rank": 39, "kenpom_adjEM": 15.6, "kenpom_adjOE": 110.2, "kenpom_adjDE": 94.6, "kenpom_tempo": 72.0,
+      "net_rank": 39,
+      "recent_form_w10": 5,
+      "sos_rank": 28,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Texas": {
+      "seed": 11, "region": "West",
+      "record": "18-14", "wins": 18, "losses": 14,
+      "kenpom_rank": 42, "kenpom_adjEM": 15.1, "kenpom_adjOE": 109.8, "kenpom_adjDE": 94.7, "kenpom_tempo": 71.2,
+      "net_rank": 42,
+      "recent_form_w10": 5,
+      "sos_rank": 19,
+      "injury_note": "None significant",
+      "injury_penalty": 0,
+      "first_four": "F2"
+    },
+    "NC State": {
+      "seed": 11, "region": "West",
+      "record": "20-13", "wins": 20, "losses": 13,
+      "kenpom_rank": 41, "kenpom_adjEM": 15.3, "kenpom_adjOE": 110.0, "kenpom_adjDE": 94.7, "kenpom_tempo": 70.8,
+      "net_rank": 41,
+      "recent_form_w10": 5,
+      "sos_rank": 21,
+      "injury_note": "None significant",
+      "injury_penalty": 0,
+      "first_four": "F2"
+    },
+    "High Point": {
+      "seed": 12, "region": "West",
+      "record": "30-4", "wins": 30, "losses": 4,
+      "kenpom_rank": 50, "kenpom_adjEM": 13.2, "kenpom_adjOE": 107.0, "kenpom_adjDE": 93.8, "kenpom_tempo": 72.5,
+      "net_rank": 50,
+      "recent_form_w10": 9,
+      "sos_rank": 78,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Hawaii": {
+      "seed": 13, "region": "West",
+      "record": "24-8", "wins": 24, "losses": 8,
+      "kenpom_rank": 54, "kenpom_adjEM": 12.1, "kenpom_adjOE": 106.0, "kenpom_adjDE": 93.9, "kenpom_tempo": 70.1,
+      "net_rank": 54,
+      "recent_form_w10": 7,
+      "sos_rank": 90,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Kennesaw State": {
+      "seed": 14, "region": "West",
+      "record": "21-13", "wins": 21, "losses": 13,
+      "kenpom_rank": 58, "kenpom_adjEM": 11.0, "kenpom_adjOE": 105.0, "kenpom_adjDE": 94.0, "kenpom_tempo": 69.8,
+      "net_rank": 58,
+      "recent_form_w10": 6,
+      "sos_rank": 115,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Queens (NC)": {
+      "seed": 15, "region": "West",
+      "record": "21-13", "wins": 21, "losses": 13,
+      "kenpom_rank": 62, "kenpom_adjEM": 10.2, "kenpom_adjOE": 104.0, "kenpom_adjDE": 93.8, "kenpom_tempo": 70.5,
+      "net_rank": 62,
+      "recent_form_w10": 6,
+      "sos_rank": 130,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "LIU": {
+      "seed": 16, "region": "West",
+      "record": "24-10", "wins": 24, "losses": 10,
+      "kenpom_rank": 64, "kenpom_adjEM": 9.5, "kenpom_adjOE": 103.2, "kenpom_adjDE": 93.7, "kenpom_tempo": 72.8,
+      "net_rank": 64,
+      "recent_form_w10": 7,
+      "sos_rank": 155,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Michigan": {
+      "seed": 1, "region": "Midwest",
+      "record": "31-3", "wins": 31, "losses": 3,
+      "kenpom_rank": 2, "kenpom_adjEM": 33.8, "kenpom_adjOE": 119.4, "kenpom_adjDE": 85.6, "kenpom_tempo": 68.8,
+      "net_rank": 2,
+      "recent_form_w10": 8,
+      "sos_rank": 3,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Iowa State": {
+      "seed": 2, "region": "Midwest",
+      "record": "27-7", "wins": 27, "losses": 7,
+      "kenpom_rank": 4, "kenpom_adjEM": 30.2, "kenpom_adjOE": 118.8, "kenpom_adjDE": 88.6, "kenpom_tempo": 69.5,
+      "net_rank": 6,
+      "recent_form_w10": 8,
+      "sos_rank": 8,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Virginia": {
+      "seed": 3, "region": "Midwest",
+      "record": "29-5", "wins": 29, "losses": 5,
+      "kenpom_rank": 12, "kenpom_adjEM": 23.5, "kenpom_adjOE": 113.8, "kenpom_adjDE": 90.3, "kenpom_tempo": 60.5,
+      "net_rank": 12,
+      "recent_form_w10": 8,
+      "sos_rank": 17,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Alabama": {
+      "seed": 4, "region": "Midwest",
+      "record": "23-9", "wins": 23, "losses": 9,
+      "kenpom_rank": 14, "kenpom_adjEM": 22.8, "kenpom_adjOE": 117.5, "kenpom_adjDE": 94.7, "kenpom_tempo": 75.2,
+      "net_rank": 14,
+      "recent_form_w10": 6,
+      "sos_rank": 9,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Texas Tech": {
+      "seed": 5, "region": "Midwest",
+      "record": "22-10", "wins": 22, "losses": 10,
+      "kenpom_rank": 19, "kenpom_adjEM": 20.5, "kenpom_adjOE": 111.8, "kenpom_adjDE": 91.3, "kenpom_tempo": 66.8,
+      "net_rank": 19,
+      "recent_form_w10": 6,
+      "sos_rank": 16,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Tennessee": {
+      "seed": 6, "region": "Midwest",
+      "record": "22-11", "wins": 22, "losses": 11,
+      "kenpom_rank": 13, "kenpom_adjEM": 23.2, "kenpom_adjOE": 115.4, "kenpom_adjDE": 92.2, "kenpom_tempo": 68.1,
+      "net_rank": 13,
+      "recent_form_w10": 6,
+      "sos_rank": 11,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Kentucky": {
+      "seed": 7, "region": "Midwest",
+      "record": "21-13", "wins": 21, "losses": 13,
+      "kenpom_rank": 11, "kenpom_adjEM": 23.9, "kenpom_adjOE": 116.2, "kenpom_adjDE": 92.3, "kenpom_tempo": 70.2,
+      "net_rank": 21,
+      "recent_form_w10": 5,
+      "sos_rank": 12,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Georgia": {
+      "seed": 8, "region": "Midwest",
+      "record": "22-10", "wins": 22, "losses": 10,
+      "kenpom_rank": 32, "kenpom_adjEM": 16.9, "kenpom_adjOE": 110.8, "kenpom_adjDE": 93.9, "kenpom_tempo": 71.5,
+      "net_rank": 32,
+      "recent_form_w10": 7,
+      "sos_rank": 23,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Saint Louis": {
+      "seed": 9, "region": "Midwest",
+      "record": "28-5", "wins": 28, "losses": 5,
+      "kenpom_rank": 35, "kenpom_adjEM": 16.3, "kenpom_adjOE": 110.5, "kenpom_adjDE": 94.2, "kenpom_tempo": 69.0,
+      "net_rank": 35,
+      "recent_form_w10": 9,
+      "sos_rank": 47,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Santa Clara": {
+      "seed": 10, "region": "Midwest",
+      "record": "26-8", "wins": 26, "losses": 8,
+      "kenpom_rank": 37, "kenpom_adjEM": 15.9, "kenpom_adjOE": 110.2, "kenpom_adjDE": 94.3, "kenpom_tempo": 70.8,
+      "net_rank": 37,
+      "recent_form_w10": 8,
+      "sos_rank": 52,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "SMU": {
+      "seed": 11, "region": "Midwest",
+      "record": "20-13", "wins": 20, "losses": 13,
+      "kenpom_rank": 43, "kenpom_adjEM": 15.0, "kenpom_adjOE": 109.5, "kenpom_adjDE": 94.5, "kenpom_tempo": 71.0,
+      "net_rank": 37,
+      "recent_form_w10": 5,
+      "sos_rank": 30,
+      "injury_note": "None significant",
+      "injury_penalty": 0,
+      "first_four": "F4"
+    },
+    "Miami (OH)": {
+      "seed": 11, "region": "Midwest",
+      "record": "31-1", "wins": 31, "losses": 1,
+      "kenpom_rank": 93, "kenpom_adjEM": 8.5, "kenpom_adjOE": 102.0, "kenpom_adjDE": 93.5, "kenpom_tempo": 69.5,
+      "net_rank": 54,
+      "recent_form_w10": 10,
+      "sos_rank": 268,
+      "injury_note": "None significant",
+      "injury_penalty": 0,
+      "first_four": "F4"
+    },
+    "Akron": {
+      "seed": 12, "region": "Midwest",
+      "record": "29-5", "wins": 29, "losses": 5,
+      "kenpom_rank": 48, "kenpom_adjEM": 13.8, "kenpom_adjOE": 107.5, "kenpom_adjDE": 93.7, "kenpom_tempo": 70.2,
+      "net_rank": 48,
+      "recent_form_w10": 8,
+      "sos_rank": 68,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Hofstra": {
+      "seed": 13, "region": "Midwest",
+      "record": "24-10", "wins": 24, "losses": 10,
+      "kenpom_rank": 52, "kenpom_adjEM": 12.5, "kenpom_adjOE": 106.2, "kenpom_adjDE": 93.7, "kenpom_tempo": 71.3,
+      "net_rank": 52,
+      "recent_form_w10": 7,
+      "sos_rank": 95,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Wright State": {
+      "seed": 14, "region": "Midwest",
+      "record": "23-11", "wins": 23, "losses": 11,
+      "kenpom_rank": 57, "kenpom_adjEM": 11.3, "kenpom_adjOE": 105.2, "kenpom_adjDE": 93.9, "kenpom_tempo": 68.8,
+      "net_rank": 57,
+      "recent_form_w10": 7,
+      "sos_rank": 110,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Tennessee State": {
+      "seed": 15, "region": "Midwest",
+      "record": "23-9", "wins": 23, "losses": 9,
+      "kenpom_rank": 59, "kenpom_adjEM": 10.8, "kenpom_adjOE": 104.5, "kenpom_adjDE": 93.7, "kenpom_tempo": 70.5,
+      "net_rank": 59,
+      "recent_form_w10": 7,
+      "sos_rank": 125,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "UMBC": {
+      "seed": 16, "region": "Midwest",
+      "record": "24-8", "wins": 24, "losses": 8,
+      "kenpom_rank": 185, "kenpom_adjEM": 2.5, "kenpom_adjOE": 96.5, "kenpom_adjDE": 94.0, "kenpom_tempo": 69.2,
+      "net_rank": 186,
+      "recent_form_w10": 10,
+      "sos_rank": 340,
+      "injury_note": "None significant",
+      "injury_penalty": 0,
+      "first_four": "F1"
+    },
+    "Howard": {
+      "seed": 16, "region": "Midwest",
+      "record": "23-10", "wins": 23, "losses": 10,
+      "kenpom_rank": 207, "kenpom_adjEM": 1.8, "kenpom_adjOE": 95.5, "kenpom_adjDE": 93.7, "kenpom_tempo": 70.1,
+      "net_rank": 203,
+      "recent_form_w10": 8,
+      "sos_rank": 310,
+      "injury_note": "None significant",
+      "injury_penalty": 0,
+      "first_four": "F1"
+    },
+    "Florida": {
+      "seed": 1, "region": "South",
+      "record": "26-7", "wins": 26, "losses": 7,
+      "kenpom_rank": 4, "kenpom_adjEM": 30.8, "kenpom_adjOE": 120.5, "kenpom_adjDE": 89.7, "kenpom_tempo": 72.8,
+      "net_rank": 4,
+      "recent_form_w10": 9,
+      "sos_rank": 6,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Houston": {
+      "seed": 2, "region": "South",
+      "record": "28-6", "wins": 28, "losses": 6,
+      "kenpom_rank": 6, "kenpom_adjEM": 28.9, "kenpom_adjOE": 116.5, "kenpom_adjDE": 87.6, "kenpom_tempo": 66.2,
+      "net_rank": 5,
+      "recent_form_w10": 8,
+      "sos_rank": 7,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Illinois": {
+      "seed": 3, "region": "South",
+      "record": "24-8", "wins": 24, "losses": 8,
+      "kenpom_rank": 10, "kenpom_adjEM": 25.5, "kenpom_adjOE": 116.8, "kenpom_adjDE": 91.3, "kenpom_tempo": 71.5,
+      "net_rank": 10,
+      "recent_form_w10": 7,
+      "sos_rank": 13,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Nebraska": {
+      "seed": 4, "region": "South",
+      "record": "26-6", "wins": 26, "losses": 6,
+      "kenpom_rank": 13, "kenpom_adjEM": 23.1, "kenpom_adjOE": 114.5, "kenpom_adjDE": 91.4, "kenpom_tempo": 68.5,
+      "net_rank": 13,
+      "recent_form_w10": 8,
+      "sos_rank": 18,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Vanderbilt": {
+      "seed": 5, "region": "South",
+      "record": "26-8", "wins": 26, "losses": 8,
+      "kenpom_rank": 17, "kenpom_adjEM": 21.2, "kenpom_adjOE": 114.0, "kenpom_adjDE": 92.8, "kenpom_tempo": 70.5,
+      "net_rank": 17,
+      "recent_form_w10": 8,
+      "sos_rank": 20,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "North Carolina": {
+      "seed": 6, "region": "South",
+      "record": "22-12", "wins": 22, "losses": 12,
+      "kenpom_rank": 23, "kenpom_adjEM": 18.8, "kenpom_adjOE": 113.2, "kenpom_adjDE": 94.4, "kenpom_tempo": 73.2,
+      "net_rank": 23,
+      "recent_form_w10": 5,
+      "sos_rank": 14,
+      "injury_note": "Caleb Wilson out (injury), team went 5-4 to end season without him",
+      "injury_penalty": -3
+    },
+    "Saint Mary's": {
+      "seed": 7, "region": "South",
+      "record": "27-5", "wins": 27, "losses": 5,
+      "kenpom_rank": 26, "kenpom_adjEM": 18.3, "kenpom_adjOE": 112.2, "kenpom_adjDE": 93.9, "kenpom_tempo": 67.8,
+      "net_rank": 26,
+      "recent_form_w10": 8,
+      "sos_rank": 30,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Clemson": {
+      "seed": 8, "region": "South",
+      "record": "24-10", "wins": 24, "losses": 10,
+      "kenpom_rank": 29, "kenpom_adjEM": 17.8, "kenpom_adjOE": 112.5, "kenpom_adjDE": 94.7, "kenpom_tempo": 70.8,
+      "net_rank": 29,
+      "recent_form_w10": 7,
+      "sos_rank": 22,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Iowa": {
+      "seed": 9, "region": "South",
+      "record": "21-12", "wins": 21, "losses": 12,
+      "kenpom_rank": 36, "kenpom_adjEM": 16.1, "kenpom_adjOE": 111.0, "kenpom_adjDE": 94.9, "kenpom_tempo": 73.5,
+      "net_rank": 36,
+      "recent_form_w10": 6,
+      "sos_rank": 25,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Texas A&M": {
+      "seed": 10, "region": "South",
+      "record": "21-11", "wins": 21, "losses": 11,
+      "kenpom_rank": 40, "kenpom_adjEM": 15.5, "kenpom_adjOE": 110.0, "kenpom_adjDE": 94.5, "kenpom_tempo": 70.2,
+      "net_rank": 40,
+      "recent_form_w10": 5,
+      "sos_rank": 27,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "VCU": {
+      "seed": 11, "region": "South",
+      "record": "27-7", "wins": 27, "losses": 7,
+      "kenpom_rank": 45, "kenpom_adjEM": 14.5, "kenpom_adjOE": 108.2, "kenpom_adjDE": 93.7, "kenpom_tempo": 72.8,
+      "net_rank": 45,
+      "recent_form_w10": 8,
+      "sos_rank": 40,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "McNeese": {
+      "seed": 12, "region": "South",
+      "record": "28-5", "wins": 28, "losses": 5,
+      "kenpom_rank": 47, "kenpom_adjEM": 14.0, "kenpom_adjOE": 107.8, "kenpom_adjDE": 93.8, "kenpom_tempo": 71.5,
+      "net_rank": 47,
+      "recent_form_w10": 9,
+      "sos_rank": 82,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Troy": {
+      "seed": 13, "region": "South",
+      "record": "22-11", "wins": 22, "losses": 11,
+      "kenpom_rank": 53, "kenpom_adjEM": 12.2, "kenpom_adjOE": 106.1, "kenpom_adjDE": 93.9, "kenpom_tempo": 72.1,
+      "net_rank": 53,
+      "recent_form_w10": 6,
+      "sos_rank": 98,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Penn": {
+      "seed": 14, "region": "South",
+      "record": "18-11", "wins": 18, "losses": 11,
+      "kenpom_rank": 56, "kenpom_adjEM": 11.5, "kenpom_adjOE": 105.5, "kenpom_adjDE": 94.0, "kenpom_tempo": 69.5,
+      "net_rank": 56,
+      "recent_form_w10": 7,
+      "sos_rank": 108,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Idaho": {
+      "seed": 15, "region": "South",
+      "record": "21-14", "wins": 21, "losses": 14,
+      "kenpom_rank": 60, "kenpom_adjEM": 10.0, "kenpom_adjOE": 104.0, "kenpom_adjDE": 94.0, "kenpom_tempo": 70.8,
+      "net_rank": 60,
+      "recent_form_w10": 6,
+      "sos_rank": 120,
+      "injury_note": "None significant",
+      "injury_penalty": 0
+    },
+    "Prairie View A&M": {
+      "seed": 16, "region": "South",
+      "record": "18-17", "wins": 18, "losses": 17,
+      "kenpom_rank": 288, "kenpom_adjEM": -1.5, "kenpom_adjOE": 94.0, "kenpom_adjDE": 95.5, "kenpom_tempo": 68.5,
+      "net_rank": 300,
+      "recent_form_w10": 8,
+      "sos_rank": 290,
+      "injury_note": "None significant",
+      "injury_penalty": 0,
+      "first_four": "F3"
+    },
+    "Lehigh": {
+      "seed": 16, "region": "South",
+      "record": "18-16", "wins": 18, "losses": 16,
+      "kenpom_rank": 284, "kenpom_adjEM": -1.0, "kenpom_adjOE": 94.5, "kenpom_adjDE": 95.5, "kenpom_tempo": 69.0,
+      "net_rank": 275,
+      "recent_form_w10": 6,
+      "sos_rank": 180,
+      "injury_note": "None significant",
+      "injury_penalty": 0,
+      "first_four": "F3"
+    }
+  }
+}
