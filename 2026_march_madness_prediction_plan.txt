@@ -1,0 +1,359 @@
+================================================================================
+2026 NCAA DIVISION I MEN'S MARCH MADNESS BRACKET PREDICTION PROJECT
+Complete Execution Plan for Claude Code
+================================================================================
+
+PROJECT OBJECTIVE:
+Predict the outcomes of all 63 games in the 2026 NCAA Men's Basketball 
+Tournament main bracket (First Round through Championship).
+
+SCOPE:
+- 63 total games (32 first-round games + 16 second-round games + 8 regional 
+  semifinal games + 4 regional final games + 2 semifinal games + 1 championship)
+- All four regions: East, West, Midwest, South
+- No play-in (First Four) games included in predictions; focus only on 64-team 
+  main bracket
+
+OUTPUT REQUIREMENT:
+Unambiguous list of all 63 predicted game outcomes with clear formatting 
+showing Team A vs Team B → Winner
+
+
+================================================================================
+PHASE 1: DATA ACQUISITION & ORGANIZATION
+================================================================================
+
+Task 1.1: Retrieve Complete Bracket Information
+- Source: Official NCAA.com bracket or recent public sources (ESPN, Yahoo Sports, 
+  NBC Sports)
+- Collect: All 64 teams, seedings, regional assignments, first-round matchups
+- Output: organized_bracket.csv with columns:
+  * Region
+  * Team_Name
+  * Seed
+  * First_Round_Opponent
+  * Opponent_Seed
+
+Task 1.2: Gather Team Performance Data
+- Primary source: ESPN team statistics (if accessible via web)
+- Fallback: Public KenPom rankings and efficiency metrics if available online
+- Data to collect for each of 64 teams:
+  * Regular season record (W-L)
+  * Seed
+  * KenPom rank (overall, offensive efficiency, defensive efficiency)
+  * RPI or NET ranking if available
+  * Conference
+  * Key injuries/status notes (from bracket analysis documents)
+  * Championship odds (from betting sites if available)
+- Output: team_stats.csv
+
+Task 1.3: Extract Matchup Quality Indicators
+- Use available public sources to assess:
+  * Seed differential (higher seed vs lower seed)
+  * Efficiency ratings (offensive + defensive strength)
+  * Historical tournament performance of coaches
+  * Injury status and roster depth
+- Output: matchup_context.csv
+
+Task 1.4: Identify Special Cases & Story Elements
+- Teams with unusual narratives:
+  * Defending champion (Florida) seeking repeat
+  * Teams making rare tournament appearances
+  * Teams with historically weak tournament records (Nebraska - 0 tournament wins)
+  * Cinderella candidates with high win totals despite lower seeds
+  * Multiple No. 1 seeds and competitive parity at top
+- Document these for consideration in analysis phase
+
+
+================================================================================
+PHASE 2: PREDICTION METHODOLOGY & BASELINE
+================================================================================
+
+Task 2.1: Define Seed-Based Baseline Model
+The baseline expectation is that higher seeds beat lower seeds. However, upsets 
+happen. Use the following seed matchup history as baseline:
+
+- 1 vs 16: 1-seed expected to win ~99% of matchups
+- 1 vs 8: 1-seed expected to win ~90% of matchups
+- 2 vs 15: 2-seed expected to win ~95% of matchups
+- 2 vs 7: 2-seed expected to win ~75% of matchups
+- 3 vs 6: Approximate 65-70% for 3-seed
+- 4 vs 5: Approximate 55-60% for 4-seed
+
+Apply this as the default prediction unless evidence in Phase 2.2 overrides.
+
+Task 2.2: Define Refinement Factors
+Override or adjust the seed-based baseline when these conditions are met:
+
+FACTOR A: Extreme Efficiency Mismatch
+- If lower-seeded team has significantly higher KenPom rank (e.g., 10+ places), 
+  increase upset probability
+- Example: If a 6-seed is KenPom top-15 vs a 3-seed that is KenPom 25-30, 
+  consider the upset viable
+
+FACTOR B: Health/Injury Status
+- Teams missing key players: reduce win probability by 5-15% depending on 
+  player importance
+- Known injuries (from bracket documents):
+  * Duke: Point guard Foster (foot) - potentially out early rounds
+  * North Carolina: Caleb Wilson (broken thumb)
+  * Any other documented injuries noted in sources
+- Healthy teams vs injured teams: favor healthy team
+
+FACTOR C: Cinderella Indicators (applies mainly to double-digit seeds)
+- High win total (28+ wins) with only tournament qualification preventing higher seed
+- Recent winning streak (10+ games)
+- Extreme efficiency rating despite lower seed (KenPom top 40)
+- Examples: Miami (OH) 31-1, High Point 30-4, McNeese 28-5
+- If cinderella meets 2-5 seed: still favor higher seed, but reduce margin slightly
+- If cinderella meets another double-digit seed: consider toss-up
+
+FACTOR D: Tournament Experience & Coaching
+- Coaches with strong tournament records: slight boost for Elite Eight/Final Four 
+  runs
+- Teams making rare/first tournament appearances: slight probability reduction 
+  (inexperience factor)
+- Defending champion: slight home-court/confidence boost (e.g., Florida: +2-3%)
+
+FACTOR E: Geographic/Site Proximity
+- Home region advantage minimal in neutral-site tournament, but:
+  * Houston team (Houston Cougars) in South Region played in Houston = true 
+    home court = +3% boost
+  * Ignore regional site location for all other teams
+
+FACTOR F: First-Round Specific
+- 1 vs 16: Essentially default to 1-seed unless severe injury to 1-seed
+- 2 vs 15: Essentially default to 2-seed
+- 3 vs 14: Default to 3-seed unless significant efficiency advantage for 14
+- Avoid common first-round surprises unless data supports them
+
+Task 2.3: Build Prediction Logic Framework
+For each matchup:
+
+1. Start with seed-based baseline prediction
+2. Check each refinement factor (A-F)
+3. Adjust prediction up/down based on factor evidence
+4. For close calls (probability 45-55%): use tie-breaking rules
+   * In ties: default to higher seed
+   * In extreme cinderella cases: higher seed still favored but small margin
+
+Task 2.4: Build Layered Predictions (Advanced)
+After first round predictions are made:
+- Use predictions from Round 1 to build Round 2 brackets
+- Apply same refinement factors to higher-seed teams that advanced
+- Account for team composition changes (fatigue, minor injuries from first games)
+- Recognize that Elite Eight and Final Four predictions are less certain but 
+  follow similar logic
+
+
+================================================================================
+PHASE 3: EXECUTION - GAME-BY-GAME PREDICTIONS
+================================================================================
+
+Workflow:
+1. Parse the complete 64-team bracket into matchup pairs
+2. For EACH of the 63 games (ordered by round):
+
+   ROUND 1 (32 games) - First Round
+   ROUND 2 (16 games) - Second Round / Sweet 16
+   ROUND 3 (8 games) - Elite Eight / Regional Finals
+   ROUND 4 (4 games) - Final Four / National Semifinals
+   ROUND 5 (2 games) - Final Four
+   ROUND 6 (1 game) - National Championship
+
+3. For each game:
+   a. Identify both teams
+   b. Retrieve team stats, seedings, efficiency metrics
+   c. Apply seed-based baseline
+   d. Check/apply refinement factors A-F
+   e. Make final prediction
+   f. Log the prediction with reasoning (optional but recommended)
+   g. Record to output list
+
+4. Keep a running record of all 63 predictions in a single file
+
+
+================================================================================
+PHASE 4: OUTPUT GENERATION & VALIDATION
+================================================================================
+
+Task 4.1: Format Final Predictions
+Create output file: predictions_all_63_games.txt
+
+Format specification:
+```
+GAME [game_number]: [ROUND_NAME]
+[SEED] [TEAM_A] vs [SEED] [TEAM_B]
+PREDICTION: [TEAM_NAME] wins
+---
+```
+
+Example:
+```
+GAME 1: FIRST ROUND - EAST REGION
+(1) Duke vs (16) Siena
+PREDICTION: Duke wins
+---
+
+GAME 2: FIRST ROUND - EAST REGION
+(8) Ohio State vs (9) TCU
+PREDICTION: Ohio State wins
+---
+
+...continuing for all 63 games...
+
+GAME 63: CHAMPIONSHIP
+(1) [Team A] vs (1/2/etc) [Team B]
+PREDICTION: [Winner] wins
+---
+```
+
+Task 4.2: Create Summary Statistics
+- Count total upsets predicted (teams losing to lower seeds)
+- Count first-round upsets
+- Count Final Four predictions by region
+- List championship prediction
+- Identify Cinderella stories included in predictions
+
+Task 4.3: Validation Checks
+- Verify all 63 games are predicted
+- Verify bracket logic (winners from earlier rounds feed into later rounds)
+- Verify no team plays twice in same round
+- Verify 64 teams start in Round 1, narrowing to 1 champion
+
+Task 4.4: Alternative Output Format (Optional)
+Create CSV output: predictions_csv_format.csv
+Columns: Game_Number, Round, Region, Seed_A, Team_A, Seed_B, Team_B, Predicted_Winner
+
+
+================================================================================
+PHASE 5: PRESERVATION OF WORK PRODUCTS
+================================================================================
+
+Files to preserve in workspace:
+1. organized_bracket.csv - the 64-team bracket structure
+2. team_stats.csv - collected team statistics and rankings
+3. matchup_context.csv - analysis of key matchup factors
+4. prediction_log.txt - (optional) detailed reasoning for each game
+5. predictions_all_63_games.txt - FINAL OUTPUT (main deliverable)
+6. summary_statistics.txt - high-level summary and analysis
+7. this_plan.txt - this execution plan itself
+
+
+================================================================================
+PHASE 6: DATA SOURCES & ACQUISITION STRATEGY
+================================================================================
+
+Primary sources to use (in order of preference):
+1. Official NCAA.com bracket information
+2. ESPN.com (team stats, rankings, odds, commentary)
+3. Public KenPom website (if accessible) for efficiency ratings
+4. Yahoo Sports, NBC Sports, CBS Sports for bracket details and analysis
+5. Vegas betting sites (for odds and power rankings)
+
+If a source is not accessible, move to next source. All data gathering should 
+happen via web requests; do not assume data is pre-loaded.
+
+Backup data sources if web access is limited:
+- Use seed and basic matchup info from bracket structure already documented
+- Rely on seed-based baseline model if detailed stats unavailable
+- Use championship odds as proxy for team quality if KenPom unavailable
+
+
+================================================================================
+PHASE 7: KEY DECISIONS & PREDICTIONS GUIDANCE
+================================================================================
+
+TIER 1 LOCKS (Very High Confidence, Default to Higher Seed):
+- All 1 vs 16 matchups (4 games): Expect 1-seeds to win all
+- All 2 vs 15 matchups (4 games): Expect 2-seeds to win all
+- Likely outcomes: Duke, Arizona, Michigan, Florida all advance
+
+TIER 2 HIGH CONFIDENCE (Favor Higher Seed, Small Room for Upset):
+- Most 3 vs 14 and 4 vs 13 matchups (8 games)
+- 2 vs 7 matchups (4 games) - favor 2-seeds but some vulnerability
+- Watch: Kansas (4-seed) is a potential weakness; UConn (2-seed) is strong
+
+TIER 3 MODERATE CONFIDENCE (Competitive, Seed Advantage but Not Overwhelming):
+- 3 vs 6 matchups (4 games) - ~65% for 3-seed
+- Most 5 vs 12 matchups (4 games) - ~60% for 5-seed
+- Most 1 vs 8 matchups (4 games) - favor 1-seeds heavily (~90%) but not locks
+- Watch: St. John's (5-seed) is seeded below analytical strength; could perform well
+- Watch: Miami (OH) in First Four makes it as 11-seed with 31-1 record - could shock
+
+TIER 4 TOSS-UPS & UPSETS (Real Uncertainty):
+- 4 vs 5 matchups (4 games) - essentially neutral
+- Most 6 vs 11 matchups (4 games) - marginal seed advantage
+- Elite double-digit seed vs weak top-8 matchups
+- Example: McNeese (12-seed, 28-5) vs Vanderbilt (5-seed) - lean Vanderbilt but viable upset
+- Example: VCU (11-seed, 27-7) vs North Carolina (6-seed, but missing Wilson) - competitive
+- Example: Akron (12-seed, 29-5, MAC champion) vs Texas Tech (5-seed) - potential upset
+
+TIER 5 STRONG CINDERELLA CASES (Consider Upset):
+- High Point (12-seed, 30-4 West Region) - First-ever 30-win Big South team, hot streak
+  * vs Wisconsin (5-seed): Lean Wisconsin but this is a real upset pick
+  * Confidence: Wisconsin ~65%, High Point ~35%
+- Santa Clara (10-seed, first tournament in 30 years, West Region)
+  * vs Kentucky (7-seed, 21-13, defensive weakness): Lean Kentucky ~60%, Santa Clara ~40%
+- Miami (OH) (if advances from First Four, 31-1 record)
+  * Would be 11-seed vs Tennessee (6-seed): Lean Tennessee ~65%, Miami (OH) ~35%
+
+TIER 6 DARK HORSE NARRATIVES (Lower Probability but Story):
+- Nebraska (4-seed, 26-6) seeking first tournament win ever as power conference team
+- VCU (11-seed, 27-7) on 16-game winning streak vs North Carolina (missing key player)
+- Saint Mary's (7-seed) veteran mid-major program
+- Georgia (8-seed) underdog vs Saint Louis (9-seed)
+
+EXPECTED UPSET PATTERN:
+- Predict very few first-round upsets (mostly Tier 3-4 games)
+- Anticipate 1-2 major upsets in Tier 5 category
+- Expect higher seed to win ~75-80% of all games
+- Higher seed advantage compounds: 1-seeds make Final Four at high rates
+
+
+================================================================================
+EXECUTION CHECKLIST
+================================================================================
+
+Before starting predictions:
+[ ] Bracket data retrieved and organized
+[ ] Team stats gathered for all 64 teams
+[ ] Injury status documented
+[ ] Championship odds collected
+[ ] Refinement factors (A-F) understood and operationalized
+
+During predictions:
+[ ] Predictions made in round order (R1 → R2 → R3 → R4 → R5 → R6)
+[ ] Each prediction logged with seed matchup
+[ ] Refinement factors checked for each game
+[ ] Running total of upsets tracked
+[ ] Bracket integrity maintained (winners advance correctly)
+
+After predictions:
+[ ] All 63 games predicted
+[ ] Output file formatted correctly
+[ ] Summary statistics generated
+[ ] Work products preserved in workspace
+[ ] Final deliverable ready for human review
+
+
+================================================================================
+FINAL NOTES
+================================================================================
+
+- This plan balances analytical rigor (KenPom, efficiency metrics, seed history) 
+  with practical constraints (limited data availability for execution)
+- Seed-based baseline is conservative and reliable; only apply refinements when 
+  evidence is clear
+- Cinderella picks are fun but rare; default to higher seed in case of doubt
+- Higher-seeded teams in stronger regions (East, Midwest) have statistical 
+  advantage
+- Florida's defending-champion status provides slight psychological boost but 
+  should not override analytical signals
+- Injury to Duke's point guard is most significant known uncertainty; adjust 
+  Duke's probability downward slightly
+
+Report and preserve all intermediate work; final deliverable is the human-
+readable list of 63 game predictions.
+
+================================================================================
