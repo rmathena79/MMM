@@ -1,0 +1,337 @@
+PROJECT PLAN
+Predict the full 2026 Men's NCAA Division I March Madness main bracket
+
+Purpose
+Create an execution-ready plan that Codex can run locally, without human research help, to produce one complete, human-readable set of 63 predicted game outcomes for the 2026 men's NCAA tournament main bracket.
+
+Scope and success criteria
+- Primary output: one deterministic bracket covering all 63 games in the 64-team main bracket (Round of 64 through National Championship).
+- Required prerequisite: predict the 4 First Four games to determine the 4 play-in winners that feed the main bracket.
+- Accuracy is the objective.
+- Execution must run end-to-end without asking the human for research help.
+- All work products must be preserved.
+
+Operating assumptions
+- Execution occurs with web access and Python available.
+- The plan file is the only user-provided input.
+- The human may review commands and source code before approving execution, but will not contribute facts or research.
+- The final result must be unambiguous and human-readable.
+- Tournament predictions must be generated from pre-tournament information only. Do not use any actual NCAA tournament game results, even if execution happens after games begin.
+
+Data-freeze rule
+- Freeze the information set at execution start, but exclude any source material that reveals actual NCAA tournament results.
+- Prefer sources published between Selection Sunday and the first First Four tip, plus evergreen team/rating pages.
+- For late injury/availability news, allow updates up to execution start only if they do not include tournament outcomes.
+- Preserve source timestamps where available.
+
+Guiding principles
+1. Official bracket structure must come from official NCAA sources.
+2. Team strength should come from an ensemble of independent predictive systems, not a single source.
+3. Late injury/availability news should be incorporated conservatively.
+4. The final bracket should be chosen by an explicit optimization method, not by ad hoc manual picking.
+5. Every raw source and every derived table should be saved.
+6. If a preferred source fails, use a documented fallback and continue.
+
+Recommended workspace layout
+At execution start, create and use these paths relative to the repo root:
+- plan/                  copy of this plan and any notes about deviations
+- data/raw/              raw HTML, JSON, CSV, PDFs, screenshots, text exports
+- data/intermediate/     parsed source tables, cleaned tables, feature tables
+- data/final/            canonical bracket JSON/CSV, model inputs
+- src/                   all scripts written during execution
+- logs/                  command logs, run log, warnings, source manifest
+- outputs/               final human-readable predictions and summaries
+
+Required preserved artifacts
+- Source manifest with URL, access time, file path, short description
+- Raw downloads/saves of every source actually used
+- Parsed bracket structure file
+- Team feature table(s)
+- Model training/calibration artifacts or fallback notes
+- First Four prediction file
+- Final 63-game prediction file(s)
+- Run log explaining any fallback decisions
+
+Source priority
+Tier 1: official tournament structure and NCAA-authored context
+- Official NCAA printable bracket and/or interactive bracket
+- Official NCAA schedule page for 2026 men's tournament
+- NCAA article(s) summarizing or profiling the 68-team field
+- NCAA committee-chair breakdown if useful
+
+Tier 2: public predictive metrics
+Use as many independent, public, accessible systems as possible. Preferred examples:
+- Bart Torvik / T-Rank
+- Haslametrics
+- Massey Ratings composite or similar composite rating source
+- WarrenNolan metrics / NET / schedule-strength pages
+- TeamRankings predictive ratings, if publicly accessible
+Do not stall on any one provider. If one source is blocked or unstable, document it and continue with the others.
+
+Tier 3: injuries, availability, and current context
+- AP / Reuters / NCAA coverage
+- Official team athletics sites
+- Reputable national previews
+- Public injury/status pages if accessible and not obviously unreliable
+
+Tier 4: optional consensus sanity checks
+- Reputable expert bracket previews or round-by-round picks
+- Polls and futures/market context if easily accessible
+Use these only as secondary checks, not as the primary model.
+
+Execution plan
+
+Phase 1 - Initialize and log everything
+1. Create the workspace layout above.
+2. Copy this plan into plan/.
+3. Start a run log in logs/ with timestamps.
+4. Create a source manifest file and append to it as sources are accessed.
+5. Prefer Python scripts for repeatable work; keep one small orchestration script as the main driver once the approach is clear.
+
+Phase 2 - Build the canonical tournament structure
+1. Download the official NCAA bracket source(s).
+2. Parse the full 68-team field, including:
+   - region
+   - seed
+   - team name in canonical form
+   - slot/opponent
+   - First Four placements
+3. Build a canonical bracket representation, for example:
+   - bracket_68.json
+   - first_four_slots.csv
+   - main_bracket_slots.csv
+4. Assign stable game IDs for the 63 main-bracket games:
+   - G01-G32 Round of 64
+   - G33-G48 Round of 32
+   - G49-G56 Sweet 16
+   - G57-G60 Elite Eight
+   - G61-G62 Final Four
+   - G63 Championship
+5. Validate structure:
+   - 68 total teams
+   - 4 First Four games
+   - 63 main-bracket games
+   - every main-bracket slot resolves to exactly one team or one First Four winner
+6. If the official printable bracket is easier to parse than the interactive bracket, use it. If one source is incomplete, combine official sources and document the merge logic.
+
+Phase 3 - Standardize team identities
+1. Create a canonical team-name mapping table to handle punctuation, abbreviations, and source-specific naming differences.
+2. Record aliases for every team across all sources.
+3. Ensure that every source record maps cleanly to the official NCAA bracket team names.
+4. Refuse silent mismatches: any unmatched team name must be resolved and logged.
+
+Phase 4 - Gather pre-tournament team features
+For all 68 teams, collect as many of the following as feasible from public sources:
+- overall predictive rating / rank
+- offensive efficiency / adjusted offense
+- defensive efficiency / adjusted defense
+- tempo
+- strength of schedule
+- record, conference, seed
+- recent form (for example last 10 games or last 30 days)
+- shooting profile, turnover profile, rebound profile, free-throw profile if available
+- location/travel convenience if easy to derive from sites and game locations
+- coach/tournament experience if feasible from reliable sources
+- injury or availability flags with timestamp and source quality tag
+
+Implementation notes
+- Save each source-specific dataset separately before merging.
+- Then create one merged feature table keyed by canonical team name.
+- Tag every feature with provenance where feasible.
+- Missing values are acceptable; document imputation or omission rules.
+
+Phase 5 - Preferred modeling path: historical calibration
+Goal: convert pre-tournament team features into matchup win probabilities for any pair of teams.
+
+Preferred approach
+1. Try to collect historical NCAA tournament results for recent seasons (recommended: 2014-2025 excluding 2020).
+2. For those same seasons, try to collect archived pre-tournament versions of the same or comparable predictive metrics.
+3. Build a training table where each row is one tournament game and features are pre-game differences between the two teams.
+4. Fit at least one regularized probabilistic model, such as:
+   - logistic regression
+   - gradient boosting with probability calibration
+5. Evaluate on held-out seasons using at least:
+   - log loss
+   - Brier score
+   - simple game-pick accuracy
+6. Save the evaluation report and the selected model.
+
+Historical features to prefer
+- differences in composite predictive rating
+- differences in offense/defense efficiency
+- seed difference
+- recent-form difference
+- injury adjustment terms when available
+
+If historical calibration succeeds
+- Use the best-calibrated model as the primary matchup engine.
+
+Phase 6 - Fallback modeling path: weighted ensemble without historical training
+Use this path if historical data collection is too brittle, too sparse, or clearly inferior in validation.
+
+Fallback method
+1. Convert each available rating system to a standardized score across the 68-team field.
+2. Create a composite team strength score using explicit weights. Default starting weights:
+   - 0.30 public predictive system A
+   - 0.25 public predictive system B
+   - 0.20 public composite/system C
+   - 0.15 public system D or NET-like signal
+   - 0.10 recent-form signal
+3. Adjust composite scores conservatively for credible injury/availability news.
+4. Convert team-strength differences into matchup win probabilities using a calibrated logistic transform.
+5. If round-1 market lines or moneylines are easily available from reputable public sources, use them only to calibrate the probability scale, not to replace the model.
+6. Save the exact weights and transforms used.
+
+Fallback selection rule
+- If both the preferred and fallback paths are available, compare them on whatever validation is possible and keep the one that appears better calibrated.
+
+Phase 7 - Predict the First Four
+1. Use the chosen matchup engine to predict all 4 First Four games.
+2. Save these predictions separately in outputs/first_four_predictions.*.
+3. Insert the 4 predicted play-in winners into the main bracket structure.
+4. The final main-bracket output must still contain exactly 63 games; the First Four predictions are auxiliary but required for slot resolution.
+
+Phase 8 - Compute full-bracket probabilities
+1. Using the chosen matchup engine, compute a pairwise win probability for every relevant potential matchup among tournament teams.
+2. Build recursive advancement probabilities for each bracket subtree.
+3. Save a machine-readable table of matchup probabilities and advancement probabilities.
+
+Recommended bracket-selection method
+Use dynamic programming on the bracket tree to choose the deterministic bracket that maximizes expected number of correct picks across the 63 main-bracket games.
+
+Conceptual DP outline
+- For each subtree and each possible team that could win that subtree, compute:
+  - the true model probability that the team wins the subtree
+  - the best achievable expected correct-pick total inside that subtree subject to predicting that team as the subtree winner
+- Combine child subtrees upward until reaching the title game.
+- The winning root solution yields one internally consistent bracket that is optimized for expected game accuracy.
+
+Why use this method
+- It is directly aligned with the stated objective: accuracy across the 63 games.
+- It is more principled than greedy per-round picking.
+- It preserves bracket consistency automatically.
+
+Phase 9 - Monte Carlo sanity checks
+1. Run a large tournament simulation using the same matchup probabilities (recommended: at least 100,000 simulations if runtime is acceptable).
+2. Save estimated probabilities for:
+   - Sweet 16
+   - Elite Eight
+   - Final Four
+   - title
+3. Compare the DP-selected bracket against these simulated advancement probabilities.
+4. If the chosen champion or Final Four looks highly implausible relative to the simulation outputs, investigate whether the issue is a bug, a calibration problem, or a bad data merge.
+5. If a bug or data issue is found, fix it and rerun.
+
+Phase 10 - Sanity review against simple baselines
+Construct at least these baselines:
+- pure seed/favorite bracket
+- pure composite-rating bracket without injury/news adjustments
+- optional consensus-expert bracket if easy to derive
+Compare expected correct-pick totals under the model. Keep the best bracket under the project objective.
+
+Phase 11 - Produce final outputs
+Create all of the following:
+
+1. outputs/final_predictions.md
+Human-readable final answer containing:
+- brief note on methodology used
+- champion, runner-up, Final Four, Elite Eight
+- complete list of all 63 predicted main-bracket games in order, each with:
+  - game_id
+  - round
+  - region or national round
+  - matchup
+  - predicted winner
+
+2. outputs/final_predictions.csv
+Columns:
+- game_id
+- round
+- region
+- slot_or_game_path
+- team_1
+- team_2
+- predicted_winner
+- winner_seed
+- depends_on_games (for rounds after Round of 64)
+
+3. outputs/first_four_predictions.csv
+Columns:
+- play_in_game_id
+- team_1
+- team_2
+- predicted_winner
+- feeds_main_bracket_slot
+
+4. outputs/summary.md
+Include:
+- data sources actually used
+- chosen model path (preferred or fallback)
+- validation summary
+- any important caveats
+- file inventory
+
+5. data/final/bracket_probabilities.csv
+At minimum:
+- team
+- reach_round_of_32_prob
+- reach_sweet_16_prob
+- reach_elite_8_prob
+- reach_final_four_prob
+- reach_title_game_prob
+- win_title_prob
+
+Output formatting rules
+- Use exact, canonical team names in the final files.
+- Keep game ordering stable and obvious.
+- Ensure a human can read final_predictions.md without any additional tooling.
+- Do not require the human to infer who advanced from an earlier line; state each matchup explicitly.
+
+Recommended implementation details
+- Use Python for parsing, feature building, modeling, simulation, and output generation.
+- Prefer simple, reviewable libraries: requests, beautifulsoup4, pandas, numpy, scipy, scikit-learn, lxml.
+- Avoid browser automation unless absolutely necessary.
+- Cache downloaded sources locally and read from cache on reruns.
+- Write small scripts with clear names rather than one giant notebook.
+- Keep one configuration file for source URLs, feature weights, and modeling choices.
+
+Suggested script breakdown
+- src/fetch_sources.py
+- src/parse_bracket.py
+- src/normalize_teams.py
+- src/build_features.py
+- src/train_or_select_model.py
+- src/predict_first_four.py
+- src/optimize_bracket.py
+- src/simulate_tournament.py
+- src/render_outputs.py
+- src/run_all.py
+This exact breakdown is optional; clarity and reproducibility matter more than file names.
+
+Fallback rules
+If something goes wrong, continue without human questions whenever possible.
+
+Examples
+- If a predictive source blocks access: use the remaining sources and log the omission.
+- If historical archives are too difficult to collect: switch to the fallback ensemble path.
+- If injury data is noisy or contradictory: prefer AP/Reuters/team-site/NCAA-confirmed reports and otherwise avoid speculative adjustments.
+- If two official NCAA sources differ slightly in formatting: trust the official bracket structure over derived summaries.
+
+Quality-control checklist before finalizing
+- [ ] 68 teams loaded correctly
+- [ ] 4 First Four predictions generated
+- [ ] 63 main-bracket game predictions generated
+- [ ] no team-name mismatches remain
+- [ ] final bracket is internally consistent
+- [ ] outputs are human-readable and machine-readable
+- [ ] all raw sources and logs are preserved
+- [ ] methodology choice is documented
+
+Definition of done
+The project is done when the repo contains a complete, preserved, reproducible record of the work and a final_predictions.md plus final_predictions.csv that together specify one unambiguous prediction for every game in the 2026 men's NCAA tournament main bracket.
+
+Notes for the execution system
+- Do not ask the human who is playing; get the official field from NCAA sources.
+- Do not ask the human to resolve data-source choices.
+- Use judgment, but document deviations from this plan.
+- Optimize for prediction accuracy, not minimal effort.

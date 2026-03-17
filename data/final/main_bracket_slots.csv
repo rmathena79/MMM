@@ -1,0 +1,65 @@
+region,slot_index,seed,slot_label,team,record,play_in_game_id,opening_game_index
+East,1,1,East 1,Duke,32-2,,1
+East,2,16,East 16,Siena,23-11,,1
+East,3,8,East 8,Ohio St.,21-12,,2
+East,4,9,East 9,TCU,22-11,,2
+East,5,5,East 5,St. John's,28-6,,3
+East,6,12,East 12,Northern Iowa,23-12,,3
+East,7,4,East 4,Kansas,23-10,,4
+East,8,13,East 13,Cal Baptist,25-8,,4
+East,9,6,East 6,Louisville,23-10,,5
+East,10,11,East 11,South Florida,25-8,,5
+East,11,3,East 3,Michigan St.,25-7,,6
+East,12,14,East 14,North Dakota St.,27-7,,6
+East,13,7,East 7,UCLA,23-11,,7
+East,14,10,East 10,UCF,21-11,,7
+East,15,2,East 2,UConn,29-5,,8
+East,16,15,East 15,Furman,22-12,,8
+West,1,1,West 1,Arizona,32-2,,1
+West,2,16,West 16,Long Island,24-10,,1
+West,3,8,West 8,Villanova,24-8,,2
+West,4,9,West 9,Utah St.,28-6,,2
+West,5,5,West 5,Wisconsin,24-10,,3
+West,6,12,West 12,High Point,30-4,,3
+West,7,4,West 4,Arkansas,26-8,,4
+West,8,13,West 13,Hawaii,24-8,,4
+West,9,6,West 6,BYU,23-11,,5
+West,10,11,West 11,Winner FF_W11,,FF_W11,5
+West,11,3,West 3,Gonzaga,30-3,,6
+West,12,14,West 14,Kennesaw St.,21-13,,6
+West,13,7,West 7,Miami (FL),25-8,,7
+West,14,10,West 10,Missouri,20-12,,7
+West,15,2,West 2,Purdue,27-8,,8
+West,16,15,West 15,Queens (N.C.),21-13,,8
+South,1,1,South 1,Florida,26-7,,1
+South,2,16,South 16,Winner FF_S16,,FF_S16,1
+South,3,8,South 8,Clemson,24-10,,2
+South,4,9,South 9,Iowa,21-12,,2
+South,5,5,South 5,Vanderbilt,26-8,,3
+South,6,12,South 12,McNeese,28-5,,3
+South,7,4,South 4,Nebraska,26-6,,4
+South,8,13,South 13,Troy,22-11,,4
+South,9,6,South 6,North Carolina,24-8,,5
+South,10,11,South 11,VCU,27-7,,5
+South,11,3,South 3,Illinois,24-8,,6
+South,12,14,South 14,Penn,18-11,,6
+South,13,7,South 7,Saint Mary's,27-5,,7
+South,14,10,South 10,Texas A&M,21-11,,7
+South,15,2,South 2,Houston,28-6,,8
+South,16,15,South 15,Idaho,21-14,,8
+Midwest,1,1,Midwest 1,Michigan,31-3,,1
+Midwest,2,16,Midwest 16,Winner FF_MW16,,FF_MW16,1
+Midwest,3,8,Midwest 8,Georgia,22-10,,2
+Midwest,4,9,Midwest 9,Saint Louis,28-5,,2
+Midwest,5,5,Midwest 5,Texas Tech,22-10,,3
+Midwest,6,12,Midwest 12,Akron,29-5,,3
+Midwest,7,4,Midwest 4,Alabama,23-9,,4
+Midwest,8,13,Midwest 13,Hofstra,24-10,,4
+Midwest,9,6,Midwest 6,Tennessee,22-11,,5
+Midwest,10,11,Midwest 11,Winner FF_MW11,,FF_MW11,5
+Midwest,11,3,Midwest 3,Virginia,29-5,,6
+Midwest,12,14,Midwest 14,Wright St.,23-11,,6
+Midwest,13,7,Midwest 7,Kentucky,21-13,,7
+Midwest,14,10,Midwest 10,Santa Clara,26-8,,7
+Midwest,15,2,Midwest 2,Iowa St.,27-7,,8
+Midwest,16,15,Midwest 15,Tennessee St.,23-9,,8

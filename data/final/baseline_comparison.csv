@@ -1,0 +1,4 @@
+bracket_name,expected_correct_picks
+dp_optimized,41.07279773508484
+composite_baseline,41.07279773508484
+seed_baseline,40.69354964108886

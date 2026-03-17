@@ -1,0 +1,8 @@
+source_id,url,accessed_at,file_path,description
+ncaa_bracket_pdf,https://www.ncaa.com/brackets/print/basketball-men/d1/2026,2026-03-16T21:50:31-07:00,C:\source_gh\MMM\data\raw\ncaa_2026_bracket.pdf,Official NCAA 2026 Division I men's bracket PDF
+barttorvik_trank,https://barttorvik.com/trank.php?year=2026,2026-03-16T21:50:32-07:00,C:\source_gh\MMM\data\raw\barttorvik_trank_2026.html,Bart Torvik 2026 T-Rank page
+haslametrics_ratings,https://haslametrics.com/ratings.xml,2026-03-16T21:50:33-07:00,C:\source_gh\MMM\data\raw\haslametrics_ratings_2026.xml,Haslametrics 2025-26 ratings XML feed
+warrennolan_net,https://www.warrennolan.com/basketball/2026/net,2026-03-16T21:50:35-07:00,C:\source_gh\MMM\data\raw\warrennolan_net_2026.html,WarrenNolan 2026 NET rankings page
+warrennolan_elo,https://www.warrennolan.com/basketball/2026/elo,2026-03-16T21:50:35-07:00,C:\source_gh\MMM\data\raw\warrennolan_elo_2026.html,WarrenNolan 2026 ELO rankings page
+deepmetric_standings,https://deepmetricanalytics.com/ncaabb/standings?season=2026,2026-03-16T21:50:37-07:00,C:\source_gh\MMM\data\raw\deepmetric_standings_2026.html,DeepMetric Analytics 2026 NCAA basketball standings and ratings
+powerrankingsguru_composite,https://powerrankingsguru.com/mens-college-basketball/team-power-rankings.php,2026-03-16T21:50:38-07:00,C:\source_gh\MMM\data\raw\powerrankingsguru_composite_2026.html,Power Rankings Guru composite men's college basketball rankings

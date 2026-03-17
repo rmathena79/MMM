@@ -1,0 +1,16 @@
+[2026-03-16T21:50:29-07:00] Execution started
+[2026-03-16T21:50:29-07:00] Information set frozen before the 2026 First Four tipoff using March 16, 2026 sources
+[2026-03-16T21:50:29-07:00] Historical calibration path skipped in favor of the documented fallback ensemble
+[2026-03-16T21:50:31-07:00] Fetched ncaa_bracket_pdf -> C:\source_gh\MMM\data\raw\ncaa_2026_bracket.pdf
+[2026-03-16T21:50:32-07:00] Fetched barttorvik_trank -> C:\source_gh\MMM\data\raw\barttorvik_trank_2026.html
+[2026-03-16T21:50:33-07:00] Fetched haslametrics_ratings -> C:\source_gh\MMM\data\raw\haslametrics_ratings_2026.xml
+[2026-03-16T21:50:35-07:00] Fetched warrennolan_net -> C:\source_gh\MMM\data\raw\warrennolan_net_2026.html
+[2026-03-16T21:50:35-07:00] Fetched warrennolan_elo -> C:\source_gh\MMM\data\raw\warrennolan_elo_2026.html
+[2026-03-16T21:50:37-07:00] Fetched deepmetric_standings -> C:\source_gh\MMM\data\raw\deepmetric_standings_2026.html
+[2026-03-16T21:50:38-07:00] Fetched powerrankingsguru_composite -> C:\source_gh\MMM\data\raw\powerrankingsguru_composite_2026.html
+[2026-03-16T21:50:39-07:00] Parsed official bracket structure into bracket_68.json, first_four_slots.csv, and main_bracket_slots.csv
+[2026-03-16T21:50:41-07:00] Haslametrics missing 1 bracket teams after mapping: Prairie View A&M
+[2026-03-16T21:50:44-07:00] Built merged team feature table and saved fallback model specification
+[2026-03-16T21:51:04-07:00] Predicted First Four winners: SMU, UMBC, Prairie View A&M, NC State
+[2026-03-16T21:51:04-07:00] Predicted champion: Duke
+[2026-03-16T21:51:04-07:00] Execution completed successfully

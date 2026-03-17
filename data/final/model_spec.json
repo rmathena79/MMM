@@ -1,0 +1,21 @@
+{
+  "model_path": "fallback_weighted_ensemble",
+  "weights": {
+    "bart_em_z": 0.28,
+    "hasla_em_z": 0.22,
+    "deepmetric_net_z": 0.18,
+    "warrennolan_elo_z": 0.12,
+    "prg_score_z": 0.1,
+    "recent_form_z": 0.1
+  },
+  "injury_adjustments_applied": false,
+  "injury_note": "No tournament-wide, pre-tip injury dataset met the reliability bar during this run, so no manual injury adjustments were applied.",
+  "feature_sources": {
+    "bart_em_z": "Bart Torvik adjusted efficiency margin",
+    "hasla_em_z": "Haslametrics efficiency margin",
+    "deepmetric_net_z": "DeepMetric net rating",
+    "warrennolan_elo_z": "WarrenNolan Elo",
+    "prg_score_z": "PowerRankingsGuru inverse average rank",
+    "recent_form_z": "Haslametrics last-five win rate"
+  }
+}

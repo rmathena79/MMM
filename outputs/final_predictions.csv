@@ -1,0 +1,64 @@
+game_id,round,region,slot_or_game_path,team_1,team_2,predicted_winner,depends_on_games,winner_prob,winner_seed
+G01,Round of 64,East,East 1 vs 16,Duke,Siena,Duke,,0.9711470234562751,1
+G02,Round of 64,East,East 8 vs 9,Ohio St.,TCU,Ohio St.,,0.6243777826863526,8
+G03,Round of 64,East,East 5 vs 12,St. John's,Northern Iowa,St. John's,,0.7840249648751552,5
+G04,Round of 64,East,East 4 vs 13,Kansas,Cal Baptist,Kansas,,0.7612149314003481,4
+G05,Round of 64,East,East 6 vs 11,Louisville,South Florida,Louisville,,0.6297004425671173,6
+G06,Round of 64,East,East 3 vs 14,Michigan St.,North Dakota St.,Michigan St.,,0.8518758958733229,3
+G07,Round of 64,East,East 7 vs 10,UCLA,UCF,UCLA,,0.7246863489396641,7
+G08,Round of 64,East,East 2 vs 15,UConn,Furman,UConn,,0.9201749410448951,2
+G09,Round of 64,West,West 1 vs 16,Arizona,Long Island,Arizona,,0.9713637491270588,1
+G10,Round of 64,West,West 8 vs 9,Villanova,Utah St.,Utah St.,,0.5743193705903346,9
+G11,Round of 64,West,West 5 vs 12,Wisconsin,High Point,Wisconsin,,0.7602113127227657,5
+G12,Round of 64,West,West 4 vs 13,Arkansas,Hawaii,Arkansas,,0.8718331785177345,4
+G13,Round of 64,West,West 6 vs 11,BYU,NC State,BYU,,0.6023070811343971,6
+G14,Round of 64,West,West 3 vs 14,Gonzaga,Kennesaw St.,Gonzaga,,0.9185756734804147,3
+G15,Round of 64,West,West 7 vs 10,Miami (FL),Missouri,Miami (FL),,0.6019510752293716,7
+G16,Round of 64,West,West 2 vs 15,Purdue,Queens (N.C.),Purdue,,0.9482887352716199,2
+G17,Round of 64,South,South 1 vs 16,Florida,Prairie View A&M,Florida,,0.9644093141080453,1
+G18,Round of 64,South,South 8 vs 9,Clemson,Iowa,Clemson,,0.503910460258511,8
+G19,Round of 64,South,South 5 vs 12,Vanderbilt,McNeese,Vanderbilt,,0.7485971189245547,5
+G20,Round of 64,South,South 4 vs 13,Nebraska,Troy,Nebraska,,0.8590244058705587,4
+G21,Round of 64,South,South 6 vs 11,North Carolina,VCU,North Carolina,,0.5552371550349494,6
+G22,Round of 64,South,South 3 vs 14,Illinois,Penn,Illinois,,0.906033527666289,3
+G23,Round of 64,South,South 7 vs 10,Saint Mary's,Texas A&M,Saint Mary's,,0.6562387653326318,7
+G24,Round of 64,South,South 2 vs 15,Houston,Idaho,Houston,,0.926383130027298,2
+G25,Round of 64,Midwest,Midwest 1 vs 16,Michigan,UMBC,Michigan,,0.9609553382124353,1
+G26,Round of 64,Midwest,Midwest 8 vs 9,Georgia,Saint Louis,Georgia,,0.5333408130914161,8
+G27,Round of 64,Midwest,Midwest 5 vs 12,Texas Tech,Akron,Texas Tech,,0.6740239647334907,5
+G28,Round of 64,Midwest,Midwest 4 vs 13,Alabama,Hofstra,Alabama,,0.7879611174136746,4
+G29,Round of 64,Midwest,Midwest 6 vs 11,Tennessee,SMU,Tennessee,,0.6899762210579564,6
+G30,Round of 64,Midwest,Midwest 3 vs 14,Virginia,Wright St.,Virginia,,0.878702478118494,3
+G31,Round of 64,Midwest,Midwest 7 vs 10,Kentucky,Santa Clara,Kentucky,,0.5049300156390575,7
+G32,Round of 64,Midwest,Midwest 2 vs 15,Iowa St.,Tennessee St.,Iowa St.,,0.9323044118881797,2
+G33,Round of 32,East,Winner G01 vs Winner G02,Duke,Ohio St.,Duke,"G01,G02",0.800558282753273,1
+G34,Round of 32,East,Winner G03 vs Winner G04,St. John's,Kansas,St. John's,"G03,G04",0.5343345702868145,5
+G35,Round of 32,East,Winner G05 vs Winner G06,Louisville,Michigan St.,Michigan St.,"G05,G06",0.507823816260134,3
+G36,Round of 32,East,Winner G07 vs Winner G08,UCLA,UConn,UConn,"G07,G08",0.5911146580765462,2
+G37,Round of 32,West,Winner G09 vs Winner G10,Arizona,Utah St.,Arizona,"G09,G10",0.7855444125081975,1
+G38,Round of 32,West,Winner G11 vs Winner G12,Wisconsin,Arkansas,Arkansas,"G11,G12",0.5396116857762757,4
+G39,Round of 32,West,Winner G13 vs Winner G14,BYU,Gonzaga,Gonzaga,"G13,G14",0.6419879410898899,3
+G40,Round of 32,West,Winner G15 vs Winner G16,Miami (FL),Purdue,Purdue,"G15,G16",0.7356996570668762,2
+G41,Round of 32,South,Winner G17 vs Winner G18,Florida,Clemson,Florida,"G17,G18",0.7458152514035178,1
+G42,Round of 32,South,Winner G19 vs Winner G20,Vanderbilt,Nebraska,Vanderbilt,"G19,G20",0.45784624703985194,5
+G43,Round of 32,South,Winner G21 vs Winner G22,North Carolina,Illinois,Illinois,"G21,G22",0.620802245601808,3
+G44,Round of 32,South,Winner G23 vs Winner G24,Saint Mary's,Houston,Houston,"G23,G24",0.6717622980679994,2
+G45,Round of 32,Midwest,Winner G25 vs Winner G26,Michigan,Georgia,Michigan,"G25,G26",0.7992205877121968,1
+G46,Round of 32,Midwest,Winner G27 vs Winner G28,Texas Tech,Alabama,Alabama,"G27,G28",0.4678501829654608,4
+G47,Round of 32,Midwest,Winner G29 vs Winner G30,Tennessee,Virginia,Virginia,"G29,G30",0.569635749724525,3
+G48,Round of 32,Midwest,Winner G31 vs Winner G32,Kentucky,Iowa St.,Iowa St.,"G31,G32",0.6594009415688583,2
+G49,Sweet 16,East,Winner G33 vs Winner G34,Duke,St. John's,Duke,"G33,G34",0.6249877830930365,1
+G50,Sweet 16,East,Winner G35 vs Winner G36,Michigan St.,UConn,UConn,"G35,G36",0.33261631463799196,2
+G51,Sweet 16,West,Winner G37 vs Winner G38,Arizona,Arkansas,Arizona,"G37,G38",0.5635655298157287,1
+G52,Sweet 16,West,Winner G39 vs Winner G40,Gonzaga,Purdue,Purdue,"G39,G40",0.4682656168743747,2
+G53,Sweet 16,South,Winner G41 vs Winner G42,Florida,Vanderbilt,Florida,"G41,G42",0.5052701746772206,1
+G54,Sweet 16,South,Winner G43 vs Winner G44,Illinois,Houston,Houston,"G43,G44",0.4242295768401225,2
+G55,Sweet 16,Midwest,Winner G45 vs Winner G46,Michigan,Alabama,Michigan,"G45,G46",0.6144462632486418,1
+G56,Sweet 16,Midwest,Winner G47 vs Winner G48,Virginia,Iowa St.,Iowa St.,"G47,G48",0.40022969768221117,2
+G57,Elite Eight,East,Winner G49 vs Winner G50,Duke,UConn,Duke,"G49,G50",0.48309623755395414,1
+G58,Elite Eight,West,Winner G51 vs Winner G52,Arizona,Purdue,Arizona,"G51,G52",0.3808326870544342,1
+G59,Elite Eight,South,Winner G53 vs Winner G54,Florida,Houston,Florida,"G53,G54",0.2972398075469558,1
+G60,Elite Eight,Midwest,Winner G55 vs Winner G56,Michigan,Iowa St.,Michigan,"G55,G56",0.43594901830561067,1
+G61,Final Four,National,Winner G57 vs Winner G59,Duke,Florida,Duke,"G57,G59",0.3354710890273646,1
+G62,Final Four,National,Winner G58 vs Winner G60,Arizona,Michigan,Michigan,"G58,G60",0.2656501627287983,1
+G63,Championship,National,Winner G61 vs Winner G62,Duke,Michigan,Duke,"G61,G62",0.21385850380177776,1
